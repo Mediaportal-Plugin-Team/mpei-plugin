@@ -344,7 +344,7 @@ namespace MPEIPlugin
     public static string Settings = "Settings";
     public static string ShowSreenshots = "Show Screenshots";
     public static string ShowChangelogs = "Show Change Logs";
-    public static string ShowOnlyStable = "Show Obly Stable";
+    public static string ShowOnlyStable = "Show Only Stable";
     public static string ShowOnlyCompatible = "Show Only Compatible";
     public static string SelectMPVersion = "Select version";
     public static string SelectVersion = "Select MediaPortal version";
