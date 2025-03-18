@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MediaPortal")]
 [assembly: AssemblyProduct("MPEIHelper")]
-[assembly: AssemblyCopyright("Copyright © MediaPortal 2013")]
+[assembly: AssemblyCopyright("Copyright © MediaPortal 2013-2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,4 +20,4 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("2c0a416b-7764-4356-9e92-8ece9d545e71")]
-[assembly: AssemblyVersion("1.3.0.0")]
+[assembly: AssemblyVersion("1.5.0.0")]

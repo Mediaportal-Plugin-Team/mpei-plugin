@@ -10,7 +10,7 @@ using MediaPortal.Common.Utils;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MediaPortal")]
 [assembly: AssemblyProduct("MPEIPlugin")]
-[assembly: AssemblyCopyright("Copyright © MediaPortal 2013")]
+[assembly: AssemblyCopyright("Copyright © MediaPortal 2013-2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -23,4 +23,4 @@ using MediaPortal.Common.Utils;
 [assembly: Guid("66130e87-42a1-441e-a670-cda3e50605e0")]
 
 [assembly: CompatibleVersion("1.1.6.27644")]
-[assembly: AssemblyVersion("1.3.0.0")]
+[assembly: AssemblyVersion("1.5.0.999")]

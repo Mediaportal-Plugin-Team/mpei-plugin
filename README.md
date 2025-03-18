@@ -1,4 +1,4 @@
-## MPEI Plugin
+## MPEI Plugin aka Extensions
 
 [![MP AnyCPU](https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&logoColor=white)](https://github.com/Mediaportal-Plugin-Team/mpei-plugin/releases)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/mpei-plugin/build.yml?logo=github)](https://github.com/Mediaportal-Plugin-Team/mpei-plugin/actions)
