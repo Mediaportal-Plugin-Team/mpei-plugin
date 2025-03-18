@@ -3,14 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.IO;
+using System.Xml.Serialization;
+using System.Runtime.Serialization;
 using MpeCore;
 using MpeCore.Classes;
 using MediaPortal.Configuration;
+using MediaPortal.GUI.Library;
 
 namespace MPEIPlugin
 {
     public class UpgradeAdvisor
     {
+        [DataContract]
+        private class PackageInfo
+        {
+            [DataMember]
+            public string ID { get; set; }
+
+            [DataMember]
+            public string LastVersion
+            {
+                get
+                {
+                    return this.LastVersionInfo.ToString();
+                }
+
+                set
+                {
+                    this.LastVersionInfo = VersionInfo.Parse(value);
+                }
+            }
+
+            public VersionInfo LastVersionInfo { get; set; }
+        }
+
+        private static int _UpdateInProgress = 0;
+
         public static string SiteUrl = @"http://edalex.dyndns.tv:8090/";
         public static List<MPRelease> AllReleases = new List<MPRelease>();
         public static List<MPRelease> KnownReleases = new List<MPRelease>();
@@ -22,28 +50,28 @@ namespace MPEIPlugin
             List<MPRelease> newReleases = new List<MPRelease>();
             KnownReleases.Clear();
             AllReleases.Clear();
-            string index = Config.GetFile(Config.Dir.Config, @"Installer\V2\MPVersionIndex.txt");
-            if (File.Exists(index))
-            {
-                string knownVersions = File.ReadAllText(index);
-                KnownReleases = GetReleaseList(knownVersions);
-            }
-            bool success = GUIMpeiPlugin._downloadManager.DownloadNow(GUIMpeiPlugin.MPUpdateUrl, index);
-            if (success)
-            {
-                string allVersions = File.ReadAllText(index);
-                AllReleases = GetReleaseList(allVersions);
-                newReleases = AllReleases.Except(KnownReleases, new MPReleaseComparer()).ToList();
+            //string index = Config.GetFile(Config.Dir.Config, @"Installer\V2\MPVersionIndex.txt");
+            //if (File.Exists(index))
+            //{
+            //    string knownVersions = File.ReadAllText(index);
+            //    KnownReleases = GetReleaseList(knownVersions);
+            //}
+            //bool success = GUIMpeiPlugin._downloadManager.DownloadNow(GUIMpeiPlugin.MPUpdateUrl, index);
+            //if (success)
+            //{
+            //    string allVersions = File.ReadAllText(index);
+            //    AllReleases = GetReleaseList(allVersions);
+            //    newReleases = AllReleases.Except(KnownReleases, new MPReleaseComparer()).ToList();
 
-            }
-            foreach (MPRelease newRelease in newReleases)
-            {
-                DownloadCompatibilityInfo(newRelease);
-            }
-            foreach (MPRelease newRelease in AllReleases)
-            {
-                ParseInfo(newRelease);
-            }
+            //}
+            //foreach (MPRelease newRelease in newReleases)
+            //{
+            //    DownloadCompatibilityInfo(newRelease);
+            //}
+            //foreach (MPRelease newRelease in AllReleases)
+            //{
+            //    ParseInfo(newRelease);
+            //}
             return newReleases;
         }
 
@@ -74,7 +102,7 @@ namespace MPEIPlugin
 
         public static string GetCompatiblePluginVersion(PackageClass pack, Version version)
         {
-            List<PackageClass> packsById = MpeInstaller.KnownExtensions.GetList(pack.GeneralInfo.Id).Items;
+            List<PackageClass> packsById = MpeInstaller.KnownExtensions.GetList(pack.GeneralInfo.Id, true).Items;
             Dictionary<string, bool> compatibles = new Dictionary<string, bool>();
             foreach (PackageClass p in packsById)
             {
@@ -161,6 +189,107 @@ namespace MPEIPlugin
                     ci.Name = props[1];
                     ci.Version = new Version(props[3]);
                     ModulePool.Add(ci);
+                }
+            }
+        }
+
+
+        /// <summary>
+        /// Checks for extension update. If a new version is available, then send a message to the MediaPortal.
+        /// </summary>
+        public static void CheckExtensions()
+        {
+            if (System.Threading.Interlocked.Exchange(ref _UpdateInProgress, 1) == 0)
+            {
+                try
+                {
+                    Log.Debug("[MPEI] UpgradeAdvisor.CheckExtensions()");
+
+                    //Mediaportal Info service
+                    MediaPortal.Services.INotifyMessageService srv = MediaPortal.Services.GlobalServiceProvider.Get<MediaPortal.Services.INotifyMessageService>();
+
+                    if (srv != null)
+                    {
+                        List<PackageInfo> packageInfos = null;
+                        //Read info about installed packages from the settings
+                        using (MediaPortal.Profile.Settings xmlreader = new MediaPortal.Profile.MPSettings())
+                        {
+                            packageInfos = xmlreader.GetValueAsString("myextensions2", "extensionInfo", "[]").FromJSONArray<PackageInfo>().ToList();
+                        }
+
+                        //List of installed packages
+                        List<PackageClass> packagesInstalled = MpeInstaller.InstalledExtensions.Items;
+
+                        //Remove non existing packages from infolist
+                        for (int i = packageInfos.Count - 1; i >= 0; i--)
+                        {
+                            if (!packagesInstalled.Exists(p => p.GeneralInfo.Id == packageInfos[i].ID))
+                                packageInfos.RemoveAt(i);
+                        }
+
+                        #region Proceed with each installed package
+                        packagesInstalled.ForEach(pkg =>
+                        {
+                            try
+                            {
+                                VersionInfo pkgVersion = pkg.GeneralInfo.Version;
+                                string strPkId = pkg.GeneralInfo.Id;
+
+                                PackageClass pkgNew = MpeInstaller.KnownExtensions.GetUpdate(pkg, true);
+
+                                if (pkgNew != null)
+                                {
+                                    GeneralInfoItem giPkgNew = pkgNew.GeneralInfo;
+                                    PackageInfo pi = packageInfos.Find(p => p.ID == strPkId);
+                                    if (pi == null)
+                                    {
+                                        pi = new PackageInfo() { ID = strPkId, LastVersionInfo = pkgVersion };
+                                        packageInfos.Add(pi);
+                                    }
+                                    else if (pi.LastVersionInfo < pkgVersion)
+                                        pi.LastVersionInfo = pkgVersion; //update our last version to the installed one
+
+                                    //Check if we know about the new version
+                                    if (giPkgNew.Version > pi.LastVersionInfo)
+                                    {
+                                        Log.Debug("[MPEI] UpgradeAdvisor.CheckExtensions() New version available: {0} - {1}", giPkgNew.Name, giPkgNew.Version);
+
+                                        //New version of the extension is available; send messsage to the MP
+                                        srv.MessageRegister(
+                                            string.Format("New version of the extension '{0}' is available - {1}", giPkgNew.Name, giPkgNew.Version),
+                                            "Extensions", //MPEIPlugin name
+                                            801, //MPEIPlugin ID
+                                            giPkgNew.ReleaseDate,
+                                            out string strMessageId,
+                                            strDescription: giPkgNew.VersionDescription,
+                                            strOriginLogo: "defaultExtension.png",
+                                            strAuthor: giPkgNew.Name,
+                                            cls: MediaPortal.Services.NotifyMessageClassEnum.News);
+
+                                        //Remember last version
+                                        pi.LastVersionInfo = giPkgNew.Version;
+                                    }
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Log.Error("[MPEI] UpgradeAdvisor.CheckExtensions() Error: {0}", ex.Message);
+                            }
+                        });
+                        #endregion
+
+                        //Write info about installed packages to the settings
+                        using (MediaPortal.Profile.Settings xmlwriter = new MediaPortal.Profile.MPSettings())
+                        {
+                            xmlwriter.SetValue("myextensions2", "extensionInfo", packageInfos.ToJSON());
+                        }
+                    }
+
+                    Log.Debug("[MPEI] UpgradeAdvisor.CheckExtensions() Complete.");
+                }
+                finally
+                {
+                    _UpdateInProgress = 0;
                 }
             }
         }

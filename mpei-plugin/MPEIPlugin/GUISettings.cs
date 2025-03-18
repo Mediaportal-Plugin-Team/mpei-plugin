@@ -63,7 +63,7 @@ namespace MPEIPlugin
       if (match.Success) GUID = match.Groups["guid"].Value;
 
       // get package details (we may have jumped from external plugin so properties may not be loaded)
-      PackageClass pk = MpeInstaller.KnownExtensions.Get(GUID);
+      PackageClass pk = MpeInstaller.KnownExtensions.Get(GUID, true);
         //MpeInstaller.KnownExtensions.Items
       SetProperties(pk);
       if (File.Exists(SettingsFile))

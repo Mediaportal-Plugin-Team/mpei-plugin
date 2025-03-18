@@ -7,6 +7,7 @@ namespace MPEIPlugin
   public enum DownLoadItemType
   {
     IndexList,
+    IndexListInstalledOnly,
     UpdateInfo,
     UpdateInfoComplete,
     Extension,

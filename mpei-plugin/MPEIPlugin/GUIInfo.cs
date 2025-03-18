@@ -92,7 +92,7 @@ namespace MPEIPlugin
 
     void SetFocus()
     {
-      if (MpeInstaller.KnownExtensions.GetUpdate(Package) != null)
+      if (MpeInstaller.KnownExtensions.GetUpdate(Package, true) != null)
       {
         if (btnUpdate != null) GUIControl.FocusControl(GetID, btnUpdate.GetID);
       }

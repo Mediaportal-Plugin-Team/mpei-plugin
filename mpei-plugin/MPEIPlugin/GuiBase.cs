@@ -37,7 +37,7 @@ namespace MPEIPlugin
 
     public void ConfigureExtension(string id)
     {
-      PackageClass pak = MpeInstaller.InstalledExtensions.Get(id);
+      PackageClass pak = MpeInstaller.InstalledExtensions.Get(id, false);
 
       if (pak != null)
       {
@@ -54,7 +54,7 @@ namespace MPEIPlugin
 
     public void UnInstallExtension(string id)
     {
-      PackageClass pak = MpeInstaller.InstalledExtensions.Get(id);
+      PackageClass pak = MpeInstaller.InstalledExtensions.Get(id, false);
 
       if (pak != null)
       {
@@ -70,7 +70,7 @@ namespace MPEIPlugin
 
     public void InstallExtension(string id)
     {
-      PackageClass pak = MpeInstaller.KnownExtensions.Get(id);
+      PackageClass pak = MpeInstaller.KnownExtensions.Get(id, true);
       if (pak != null)
       {
         queue.Add(new QueueCommand(pak, CommandEnum.Install));
@@ -135,10 +135,10 @@ namespace MPEIPlugin
 
     public void UpdateExtension(string id)
     {
-      PackageClass installedpak = MpeInstaller.InstalledExtensions.Get(id);
-      if (installedpak != null && MpeInstaller.KnownExtensions.GetUpdate(installedpak) != null)
+      PackageClass installedpak = MpeInstaller.InstalledExtensions.Get(id, false);
+      if (installedpak != null && MpeInstaller.KnownExtensions.GetUpdate(installedpak, true) != null)
       {
-        queue.Add(new QueueCommand(MpeInstaller.KnownExtensions.GetUpdate(installedpak), CommandEnum.Install));
+        queue.Add(new QueueCommand(MpeInstaller.KnownExtensions.GetUpdate(installedpak, true), CommandEnum.Install));
         queue.Save();
         NotifyUser();
       }
@@ -196,10 +196,10 @@ namespace MPEIPlugin
 
     public void ShowChangeLog(string id)
     {
-      PackageClass installedpak = MpeInstaller.InstalledExtensions.Get(id);
+      PackageClass installedpak = MpeInstaller.InstalledExtensions.Get(id, false);
       if (installedpak != null)
       {
-        PackageClass update = MpeInstaller.KnownExtensions.GetUpdate(installedpak);
+        PackageClass update = MpeInstaller.KnownExtensions.GetUpdate(installedpak, true);
         if (update != null)
         {
           string text = string.Format("{0} - {1}", update.GeneralInfo.Name, update.GeneralInfo.Version.ToString()) + "\n" + update.GeneralInfo.VersionDescription;
@@ -222,7 +222,7 @@ namespace MPEIPlugin
         dlg.Reset();
         dlg.SetHeading(Translation.SelectVersion);
         
-        ExtensionCollection paks = MpeInstaller.KnownExtensions.GetList(pk.GeneralInfo.Id);
+        ExtensionCollection paks = MpeInstaller.KnownExtensions.GetList(pk.GeneralInfo.Id, true);
         PackageClass ver = null;
 
         if (paks.Items.Count > 1)
@@ -238,7 +238,7 @@ namespace MPEIPlugin
           dlg.selectOption(selected);
           dlg.DoModal(GetID);
           if (dlg.SelectedId == -1) return;
-          ver = MpeInstaller.KnownExtensions.Get(pk.GeneralInfo.Id, dlg.SelectedLabelText);
+          ver = MpeInstaller.KnownExtensions.Get(pk.GeneralInfo.Id, dlg.SelectedLabelText, true);
           selected = dlg.SelectedLabelText;
         }
         else
@@ -384,7 +384,7 @@ namespace MPEIPlugin
         ExtensionCollection unigueCollection = new ExtensionCollection();
         foreach (PackageClass package in newExtension.Items)
         {
-            if (!MpeInstaller.KnownExtensions.Items.Exists(pk => pk.GeneralInfo.Id == package.GeneralInfo.Id && pk.GeneralInfo.Version.CompareTo(package.GeneralInfo.Version) == 0 && pk.GeneralInfo.ReleaseDate >= package.GeneralInfo.ReleaseDate))
+            if (!MpeInstaller.KnownExtensions.Items.Exists(pk => pk.IsPlatformCompatible && pk.GeneralInfo.Id == package.GeneralInfo.Id && pk.GeneralInfo.Version.CompareTo(package.GeneralInfo.Version) == 0 && pk.GeneralInfo.ReleaseDate >= package.GeneralInfo.ReleaseDate))
             {
 
                 unigueCollection.Items.Add(package);
@@ -395,15 +395,15 @@ namespace MPEIPlugin
     }
     public static void ReplaceUpdateURL(string PackageId, string url)
     {
-        List<PackageClass> packs = MpeInstaller.KnownExtensions.GetList(PackageId).Items;
+        List<PackageClass> packs = MpeInstaller.KnownExtensions.GetList(PackageId, true).Items;
         foreach (PackageClass p in packs)
         {
-            MpeInstaller.KnownExtensions.Items.Find(i => i.GeneralInfo.Id == p.GeneralInfo.Id
+            MpeInstaller.KnownExtensions.Items.Find(i => i.IsPlatformCompatible && i.GeneralInfo.Id == p.GeneralInfo.Id
                 && i.GeneralInfo.Version.CompareTo(p.GeneralInfo.Version) == 0
                 && i.GeneralInfo.ReleaseDate == p.GeneralInfo.ReleaseDate).GeneralInfo.UpdateUrl = url;
 
         }
-        PackageClass LocalPack = MpeInstaller.InstalledExtensions.Get(PackageId);
+        PackageClass LocalPack = MpeInstaller.InstalledExtensions.Get(PackageId, true);
         if (LocalPack != null)
         {
             MpeInstaller.InstalledExtensions.Items.Find(i => i.GeneralInfo.Id == LocalPack.GeneralInfo.Id
