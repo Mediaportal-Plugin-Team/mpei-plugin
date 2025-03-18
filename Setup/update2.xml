@@ -1,0 +1,3343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>0</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>* Option to show change logs
+* Label for current view
+* Localization
+* Screenshot support
+* View for new extensions, 
+* View for queued actions
+* Update view
+* Support for updating extension from any windows 
+* Better error hading
+* Automatic update. No user action needed 
+* Background download manager.
+Plugin Name changed to : Extensions
+Support for : # selectedthumb</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.0.mpe1</OnlineLocation>
+        <ReleaseDate>2010-06-28T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>F:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>F:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>1</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Support for configure plugins</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.1.mpe1</OnlineLocation>
+        <ReleaseDate>2010-06-28T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>d:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>d:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>2</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Separated info screen
+Possibility to enable/disable plugins</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.2.mpe1</OnlineLocation>
+        <ReleaseDate>2010-07-30T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>d:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>D:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>5</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Support for MP site repository</VersionDescription>
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.5.mpe1</OnlineLocation>
+        <ReleaseDate>2010-07-30T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>d:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>D:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>6</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Support for MP site repository</VersionDescription>
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.6.mpe1</OnlineLocation>
+        <ReleaseDate>2010-07-30T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>d:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>D:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>7</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Splashscreen when downloading extensions for mpsite</VersionDescription>
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.7.mpe1</OnlineLocation>
+        <ReleaseDate>2010-11-20T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>d:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>D:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>8</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Compatibility with latest SVN</VersionDescription>
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.8.mpe1</OnlineLocation>
+        <ReleaseDate>2010-11-20T00:04:20</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>d:\devel\vs2005\MPEIPlugin\Setup\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value>D:\devel\vs2005\MPEIPlugin\Setup\logo.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skin">
+            <DisplayName>Skin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal 1.2</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Players.Video" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>9</Revision>
+        </Version>
+        <ExtensionDescription>Windows Plugin to manage MediaPortal extensions. Install, update, uninstall extensions </ExtensionDescription>
+        <VersionDescription>Compatibility with latest SVN</VersionDescription>
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.0.0.5.9.mpe1</OnlineLocation>
+        <ReleaseDate>2011-08-31T10:56:05.7031033+10:00</ReleaseDate>
+        <Tags>installer, mpei, plugin </Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>87</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.</ExtensionDescription>
+        <VersionDescription>* Better checking for skins splashscreen when doing installations from GUI.
+* Fix standard skin properties like itemcount and currentmodule not working in all windows.
+* Set focus on views button when no extensions are loaded in the list, this gives a hint to user on what to do e.g. browse online extensions.
+* Fixed Info window not getting focus on available buttons when entering.
+* Removed all hard coded strings and updated translations, fixed typos etc. All translations are now in en-US.xml
+* Fixed constant refresh of extension list when updates are still downloading in background. Now only refreshed when all updates have finished downloading.
+* Refresh of Default skins including support now for (4:3) Default skin.
+* Refresh of packaged MPEI installer.
+* Fixed filtering of Incompatible plugins not working. Setting is now respected from MPEI Installer configuration.
+* Fixed extension updates always being downloaded on startup, was not respecting settings defined in MPEI Installer configuration.
+* Added Spanish translations, thanks riturrioz.
+* Added Danish translations, thanks Steffan.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.0.87.mpe1</OnlineLocation>
+        <ReleaseDate>2011-09-10T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>116</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.</ExtensionDescription>
+        <VersionDescription>* Added Loading Parameter support to main window, currently can jump to a view. This is esp. useful for skinners that what to display a button when there is an update available for atleast one extension installed. This can be used in conjuction with the mpei.updates property ie show button if this property is not empty.
+* Added new skin properties for selected extensions: Downloads, Hits, Rating, Votes, Status, DateAdded, CompatiblieVersions. DefaultWide skin updated in Info window.
+* Added more error checking when downloading and installing extensions.
+* Added German translations, thanks catavolt.
+* Added Dutch translations, thanks Lbr_Lion.
+* Fixed correct usage of Plugin Name translation, now only used for currentmodule property and menu item name.
+* Fixed translations not being updated when changing language settings from GUI until restart.
+* Fixed skin properties not being cleared when Back folder item was selected.
+* Fixed a type in the JustAdded skin property, old one is left in for backwards compatibility,
+* Fixed incorrect itemcount skin property when navigating MP Website view.
+* Fixed focus on disabled button in Settings window in Default skins.
+* Fixed Change Log being visible in Info window when in MP Website view.
+* Fixed Author property incorrectly displaying SubmittedBy field instead of list of Authors.
+* Fixed label in MPEIHelper utility overlapping progress bar.
+* Improved Usability and Reliability for the MP Website Extensions view. Also thanks to Rochess for helping out with regular expressions.
+* Changed ReleaseDate property to show DateAdded when there has never been an update (only applicable in MP Website view).
+
+Plus many more little fixes and updates.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.1.116.mpe1</OnlineLocation>
+        <ReleaseDate>2011-09-16T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>2</Build>
+          <Revision>124</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.</ExtensionDescription>
+        <VersionDescription>* Fixed a possible hang when invoking the ChangeLog menu, also only display list of versions if there is more than one to choose from.
+
+* Fixed flicker/lock-ups when extension had an invalid online icon. Also don't try to download a failed update/icon file more than once in the same session.
+
+* Updated views button label in Default skins to a better translation.
+
+* Fixed a typo in CompatibleVersions skin property. Old one left in for backwards compatibility.
+
+* Reword log message so its less confusing if a file fails to download.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.2.124.mpe1</OnlineLocation>
+        <ReleaseDate>2011-09-17T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>3</Build>
+          <Revision>141</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Fully translatable settings window for plugin developers that include extensions settings xml with their package. Plugins with translation classes should ensure that they initialize properties on Init().
+
+* Added new setting attributes for description and settings file (not all plugins have settings stored in mediaportal.xml.
+
+* Added screenshots button to Info window, will also show slideshow of images from website if in website view. Skin property added to control visibility of button, see default skins for example.
+
+* Fixed disable/enable button being visisble in info window for unsupported extensions.
+
+* Fixed website image tags dimcolor in default skins.
+
+* Fixed focus of disable/enable buttons when option is toggled.
+
+* Fixed current selection not being highlighted in setting menus.
+
+* Fixed first item in settings window not being selected on page load.
+
+* Updated currentmodule properties in Info and Settings window to be more descriptive of their content.
+
+* Added event for plugin developers that can listen to a change in settings for their plugin. The installation GUID will be parsed as an event parameter so this can be used to distinguish between settings changed in other plugins.
+
+* Updated German translations, thanks catavolt.
+
+* Updated Dutch translations, thanks Lbr_Lion.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.3.141.mpe1</OnlineLocation>
+        <ReleaseDate>2011-09-19T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>4</Build>
+          <Revision>152</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Added periodic checks on server to download update info. This re-uses the 'Update Days' setting in MPEI Installer configuration.
+
+* Fixed issues when returning to extensions window after restart of MediaPortal.
+
+* Fix an IO Exception and failure to download updates if there is too many files in the users TEMP directory.
+
+* Fix Null Reference Exception in en-US translations file.
+
+* Fix a possible Null Reference Exception that could occur in the Extension Info window.
+
+* Some minor changes to english translations.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.4.152.mpe1</OnlineLocation>
+        <ReleaseDate>2011-10-13T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>5</Build>
+          <Revision>163</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Added a default list icon/thumbnail in case extension does not have a local/online icon. Skins can create what ever image they want in their skin media directory.
+
+* Added visible condition for 'Update All' button in default skins. Will only be visible if there are updates available.
+
+* Added Prompt to Restart when 'Update All' is clicked.
+
+* Added a 'Download Updates' button, with this you can check for updates on your Installed Extensions or All Extensions. You can disable auto-updates from MPEI installer if you wish to manage manually from GUI only.
+
+* Updated hover image in Default skins with default plugin one.
+
+* Removed the 'Update Available' button in Default skins as its not needed for itself, you can see update available from the list of installed extensions. Its also less confusing.
+
+* Fixed extension skin properties not being available when jumping to Settings window from external plugin.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.5.163.mpe1</OnlineLocation>
+        <ReleaseDate>2011-12-20T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>6</Build>
+          <Revision>171</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>*  Added validation of settings manually entered via keyboard for integer (number) types.
+
+* Added a 'Restore Defaults' button in skin so that default settings can be restored to all settings in the current section.
+
+* Added context menu in Settings GUI to allow user to restore the default value of the currently selected setting as well as option to restore all defaults (in case skin does not support button).
+
+* Fixed issues with settings window not working properly if there were some settings missing key attributes. This occurred in latest OnlineVideos release.
+
+</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.6.171.mpe1</OnlineLocation>
+        <ReleaseDate>2012-04-11T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 RC1 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Players.Music" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>7</Build>
+          <Revision>176</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>*  Added setting to ignore certain packages from full screen install. These packages are usually ones that do not respect silent installs such Backup Settings. By default BackupSettings,OnlineVideos and LAVFilters (can prompt for restart) are ignored but users can add/remove any package guid to the settings file.
+
+* Fixed error message not correctly formatted for setting maxvalue and minvalue check in Settings GUI.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.7.176.mpe1</OnlineLocation>
+        <ReleaseDate>2012-05-19T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.2.100.0</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Players.Music" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>8</Build>
+          <Revision>180</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>*  Added compatibility with MediaPortal 1.3 Alpha.
+
+* Updated Dutch translations.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.8.180.mpe1</OnlineLocation>
+        <ReleaseDate>2012-07-11T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin_MP1.3">
+            <DisplayName>DefaultSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin_MP1.3">
+            <DisplayName>DefaultWideSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.2.100.0</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>9</Build>
+          <Revision>185</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Added support for MediaPortal 1.3 Default skins
+
+* Improvements to the Download Manager, should resolve some crashes reported.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.0.9.185.mpe1</OnlineLocation>
+        <ReleaseDate>2012-12-26T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin_MP1.3">
+            <DisplayName>DefaultSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin_MP1.3">
+            <DisplayName>DefaultWideSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.2.100.0</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.Players.Music" />
+                <SubSystemItem Name="MP.Players.Video" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>0</Build>
+          <Revision>189</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Support for translations from Transifex.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.1.0.189.mpe1</OnlineLocation>
+        <ReleaseDate>2013-03-06T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin_MP1.3">
+            <DisplayName>DefaultSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin_MP1.3">
+            <DisplayName>DefaultWideSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items />
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>2</Minor>
+          <Build>0</Build>
+          <Revision>192</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Compatibility with MediaPortal 1.4.
+* Updated translations from Transifex.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.2.0.192.mpe1</OnlineLocation>
+        <ReleaseDate>2013-05-18T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin_MP1.3">
+            <DisplayName>DefaultSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin_MP1.3">
+            <DisplayName>DefaultWideSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items />
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>2</Minor>
+          <Build>1</Build>
+          <Revision>195</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Fixed a bug in Extension GUI Settings where the default settings for the plugin will be loaded instead of the user settings. This occurred if the Skin did not have the 'Restore Defaults' button.
+* Updated translations from Transifex.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://mpei-plugin.googlecode.com/files/Extensions.1.2.1.195.mpe1</OnlineLocation>
+        <ReleaseDate>2013-07-02T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Languages">
+            <DisplayName>Languages</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Languages</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Settings">
+            <DisplayName>Settings</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Settings</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Skins">
+            <DisplayName>Skins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Skins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin">
+            <DisplayName>DefaultWideSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin">
+            <DisplayName>DefaultSkin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultSkin_MP1.3">
+            <DisplayName>DefaultSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWideSkin_MP1.3">
+            <DisplayName>DefaultWideSkin_MP1.3</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWideSkin_MP1.3</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>This version of [Name] plugin is only supported on MediaPortal 1.2 or above. Please download version that is supported by your version of MediaPortal.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="MPEIPlugin.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items />
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Extensions</Name>
+        <Id>a6afa4d6-4fd8-4607-8878-5911db044fd7</Id>
+        <Author>Dukus, Migue, ltfearme</Author>
+        <HomePage>http://code.google.com/p/mpei-plugin/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-plugins-installer-mpei-212/plugin-mpeinstaller-75926/</ForumPage>
+        <UpdateUrl>http://mpei-plugin.googlecode.com/svn/trunk/Setup/update2.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>2</Minor>
+          <Build>2</Build>
+          <Revision>199</Revision>
+        </Version>
+        <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
+        <VersionDescription>* Improved error handling and logging of issues when creating logos for extensions.
+* Updated translations from Transifex.</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://www.team-mediaportal.com/index.php?option=com_mtree&amp;task=att_download&amp;link_id=9&amp;cf_id=24</OnlineLocation>
+        <ReleaseDate>2014-04-28T10:56:05</ReleaseDate>
+        <Tags>installer, mpei, plugin, extensions</Tags>
+        <Location>.\[Name].[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>http://mpei-plugin.googlecode.com/svn/trunk/Setup/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>YES</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+  </Items>
+</ExtensionCollection>

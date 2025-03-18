@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Todos</string>
+  <string name="Actions">Acções</string>
+  <!--C-->
+  <!--D-->
+  <string name="Download">Download</string>
+  <string name="DateAdded">Adicionado</string>
+  <!--E-->
+  <string name="Error">Erro</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">Não</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <!--S-->
+  <string name="SettingPluginEnabledName"> Ligar Plugin</string>
+  <string name="SettingListedHomeName">Listados em Home</string>
+  <string name="SettingListedPluginsName">Listado em \"My Plugins\"</string>
+  <!--T-->
+  <!--U-->
+  <string name="Update">Atualizar</string>
+  <string name="UpdateAll">Atualizar tudo</string>
+  <!--V-->
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Sim</string>
+</resources>

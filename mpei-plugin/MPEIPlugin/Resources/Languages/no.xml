@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Alle</string>
+  <string name="AlwaysCheckForUpdates">Alltid sjekk etter oppdateringer</string>
+  <string name="Actions">Handlinger</string>
+  <string name="ActionAdded">Handling ble lagt i kø</string>
+  <string name="ActionRemoved">Handling fjernet fra kø</string>
+  <string name="AskForRestart">Denne handlingen vil avslutte og starte Mediaportal på nytt.\nVil du fortsette?</string>
+  <string name="Author">Forfatter</string>
+  <string name="AllExtensions">Alle Tillegg</string>
+  <!--C-->
+  <string name="ChangeLog">Endringslogg</string>
+  <string name="Compatibility">Kompabilitet</string>
+  <string name="CategoryRecentlyAdded">Nylige lagt til tillegg</string>
+  <string name="CategoryRecentlyUpdated">Nylige oppdatere tillegg</string>
+  <string name="CategoryMostInstalled">Mest installerte tillegg</string>
+  <string name="CategoryFeatured">Utvalgte tillegg</string>
+  <string name="CategoryMostPopular">Mest populære tillegg</string>
+  <string name="CategoryMostRated">Mest rangerte tillegg</string>
+  <string name="CategoryTopRated">Topp rangerte tillegg</string>
+  <string name="CategoryMostReviewed">Mest anmeldte tillegg</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Tilpasninger</string>
+  <string name="CategoryBootScreens">Oppstartsskjermer</string>
+  <string name="CategoryTools">Verktøy</string>
+  <string name="CategorySystemUtilities">System/hjelpemidler</string>
+  <string name="CategoryUtilities">Hjelpemidler</string>
+  <string name="CategoryLogos">Logoer</string>
+  <string name="CategoryTVChannels">TV-kanaler</string>
+  <string name="CategoryRadioStations">Radiostasjoner</string>
+  <string name="CategoryMediaInfo">Mediainformasjon</string>
+  <string name="CategoryPlugins">Tillegg</string>
+  <string name="CategoryWeather">Vær</string>
+  <string name="CategoryOther">Annet</string>
+  <string name="CategoryEmail">Epost</string>
+  <string name="CategoryHomeAutomation">Hjemmeautomatisjon</string>
+  <string name="CategoryPictures">Bilder</string>
+  <string name="CategoryRadio">Radio</string>
+  <string name="CategoryNews">Nyheter</string>
+  <string name="CategoryMusic">Musikk</string>
+  <string name="CategoryTelevision">Fjernsyn</string>
+  <!--D-->
+  <string name="Download">Last Ned</string>
+  <string name="Downloads">Nedlastninger</string>
+  <string name="Disable">Deaktiver</string>
+  <string name="DateAdded">Dato lagt til</string>
+  <!--E-->
+  <string name="Error">Feil</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">Nei</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <string name="Rating">Gi karakter</string>
+  <string name="ReleaseDate">Utgivelsesdato</string>
+  <string name="RestoreDefaults">Restore Defaults</string>
+  <!--S-->
+  <string name="Settings">Innstillinger</string>
+  <!--T-->
+  <string name="Timeout">Tiden gikk ut</string>
+  <!--U-->
+  <string name="Update">Oppdater</string>
+  <!--V-->
+  <string name="Views">Visning</string>
+  <string name="Votes">Stemmer</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Ja</string>
+</resources>

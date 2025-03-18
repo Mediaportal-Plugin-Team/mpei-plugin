@@ -1,0 +1,8 @@
+[main]
+host=https://www.transifex.com
+[MP1_CommunityPlugins.extensions]
+file_filter=MPEIPlugin\Resources\Languages\<lang>.xml
+source_file=MPEIPlugin\Resources\Languages\en-US.xml
+source_lang=en
+lang_map = en: en-US, pt_BR: pt-BR
+type=ANDROID

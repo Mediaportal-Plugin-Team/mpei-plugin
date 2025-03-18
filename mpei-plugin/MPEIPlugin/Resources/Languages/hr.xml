@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Sve</string>
+  <string name="AlwaysCheckForUpdates">Uvijek provjeri ažuriranja</string>
+  <string name="Actions">Radnje</string>
+  <string name="ActionAdded">Radnja je dodana u redoslijed</string>
+  <string name="ActionRemoved">Radnja je maknuta iz redoslijeda</string>
+  <string name="AskForRestart">Ova operacija će ponovno pokrenuti MediaPortal.\nŽelite li nastaviti?</string>
+  <string name="Author">Autor</string>
+  <string name="AllExtensions">Sve ekstenzije</string>
+  <!--C-->
+  <string name="ChangeLog">Popis izmjena</string>
+  <string name="Compatibility">Kompatibilno sa</string>
+  <string name="CategoryRecentlyAdded">Nedavno dodane ekstenzije</string>
+  <string name="CategoryRecentlyUpdated">Nedavno ažurirane ekstenzije</string>
+  <string name="CategoryMostInstalled">Najviše instalirane ekstenzije</string>
+  <string name="CategoryFeatured">Predložene ekstenzije</string>
+  <string name="CategoryMostPopular">Najpopularnije ekstenzije</string>
+  <string name="CategoryMostRated">Najčešće ocjenjivane ekstenzije</string>
+  <string name="CategoryTopRated">Najviše ocjenjene ekstenzije</string>
+  <string name="CategoryMostReviewed">Najviše recenzirane ekstenzije</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Uređivanje</string>
+  <string name="CategoryBootScreens">Boot pozadine</string>
+  <string name="CategoryTools">Alati</string>
+  <string name="CategorySystemUtilities">Sustav/Pomoćni programi</string>
+  <string name="CategoryUtilities">Pomoćni programi</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Upravljački programi i Firmware]]></string>
+  <string name="CategoryCodecs">Kodeci</string>
+  <string name="CategoryLogos">Logo</string>
+  <string name="CategoryTVChannels">TV kanali</string>
+  <string name="CategoryRadioStations">Radio postaje</string>
+  <string name="CategoryMediaInfo">Media Info</string>
+  <string name="CategorySkins">Skinovi</string>
+  <string name="CategoryWidescreen">Široki ekran</string>
+  <string name="CategoryNonWidescreen">Svi osim širokog ekrana</string>
+  <string name="CategoryPlugins">Dodaci</string>
+  <string name="CategoryWeather">Vrijeme</string>
+  <string name="CategoryOther">Ostalo</string>
+  <string name="CategorySystem">Sustav</string>
+  <string name="CategoryEmail">E-pošta</string>
+  <string name="CategoryPIMs">PIMs</string>
+  <string name="CategoryHomeAutomation">Kućna automatizacija</string>
+  <string name="CategoryPictures">Slike</string>
+  <string name="CategoryRadio">Radio</string>
+  <string name="CategoryInputOutput"><![CDATA[Ulaz i Izlaz]]></string>
+  <string name="CategoryOtherInputDevices">Ostali ulazni uređaji</string>
+  <string name="CategoryExternalDisplays">Vanjski zasloni</string>
+  <string name="CategoryRemotes">Daljinski upravljači</string>
+  <string name="CategoryNewsInfo"><![CDATA[Vijesti i informacije]]></string>
+  <string name="CategoryInfo">Informacije</string>
+  <string name="CategoryNews">Vijesti</string>
+  <string name="CategoryGamesFun"><![CDATA[Igre i zabava]]></string>
+  <string name="CategoryMusic">Glazba</string>
+  <string name="CategoryTelevision">Televizija</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Filmovi i video]]></string>
+  <!--D-->
+  <string name="Download">Preuzmite</string>
+  <string name="Downloads">Preuzimanja</string>
+  <string name="Disable">Onemogućite</string>
+  <string name="DateAdded">Datum dodavanja</string>
+  <string name="Description">Opis</string>
+  <string name="DownloadUpdates">Preuzmite ažuriranja</string>
+  <string name="DownloadingUpdates">Preuzimanje ažuriranja</string>
+  <string name="DownloadingExtensionIndex">Preuzimanje Indeksa ekstenzija</string>
+  <string name="DownloadingExtension">Preuzimanje definicija ažuriranja ekstenzija</string>
+  <string name="DownloadProgress">Preuzimanje [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Izlaz</string>
+  <string name="Enable">Omogućite</string>
+  <string name="Error">Greška</string>
+  <string name="ErrorExtensionInfo">Greška pri pribavljanju informacije o ekstenziji</string>
+  <string name="ErrorLoadingSite">Greška pri učitavanju popisa kategorija s MediaPortal stranice</string>
+  <string name="ErrorLoadingExtensionList">Greška pri učitavanju popisa ekstenzija za kategoriju</string>
+  <string name="ErrorDownloadingExtensionIndex">Greška pri preuzimanju popisa ekstenzija sa servera</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Pribavljam kategorije</string>
+  <string name="GetExtensionInfo">Pribavljam informacije o ekstenziji</string>
+  <!--H-->
+  <string name="Hits">klikova</string>
+  <!--I-->
+  <string name="Id">Id</string>
+  <string name="Install">Instalirajte</string>
+  <string name="InstalledExtensions">Instalirane ekstenzije</string>
+  <string name="InvalidUrl">Pogrešan Url, ekstenzija se ne može preuzeti!</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">MediaPortal web ekstenzije</string>
+  <!--N-->
+  <string name="Name">Ekstenzije</string>
+  <string name="NameInfo">Informacija o ekstenziji</string>
+  <string name="NameSettings">Postavke ekstenzije</string>
+  <string name="NeverCheckForUpdates">Nikad ne provjeravaj ažuriranja</string>
+  <string name="NewExtensions">Nove ekstenzije</string>
+  <string name="NewUpdates">Nova ažuriranja</string>
+  <string name="NewVersion">Nova inačica</string>
+  <string name="Notification">MPEI obavijest</string>
+  <string name="NotificationWarning">Ima instalacija koje još čekaju na provođenje.\nOdmah ponovno pokrenite i izvršite ih?</string>
+  <string name="NotificationMessage">Želite li ponovno pokrenuti MediaPortal\ni odmah izvršiti zadatke koji čekaju?</string>
+  <string name="No">Ne</string>
+  <string name="NoScreenshots">Nema dostupnog Prikaza ekrana za ovu ekstenziju.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Online ekstenzije</string>
+  <!--P-->
+  <string name="Plugin">Dodatak</string>
+  <!--R-->
+  <string name="Rating">Ocjena</string>
+  <string name="Revoke">Opozovite</string>
+  <string name="ReleaseDate">Datum izdanja</string>
+  <string name="Restart">Ponovno pokrenite</string>
+  <string name="Rotate">Zakrenite</string>
+  <string name="RevokeLastAction">Opozovite posljednju radnju</string>
+  <string name="RestartNow">Ova operacija zahtjeva ponovno pokretanje\nMediaPortala. Želite li odmah ponovno pokrenuti?\nAko ne, zadatak će biti stavljen na čekanje.</string>
+  <string name="RestoreDefaultValue">Vratite zadanu vrijednost</string>
+  <string name="RestoreDefaults">Vratite zadano</string>
+  <string name="RestoreAllDefaults">Vratite sve zadano</string>
+  <!--S-->
+  <string name="Sections">Odjeli</string>
+  <string name="Settings">Postavke</string>
+  <string name="ShowChangelogs">Prikaži popis izmjena</string>
+  <string name="ShowSreenshots">Prikaži Sadržaje ekrana</string>
+  <string name="SelectVersionToInstall">Odaberite inačicu za (ponovnu) instalaciju</string>
+  <string name="SelectVersion">Odaberite inačicu</string>
+  <string name="StartSlideshow">Pokrenite Slideshow</string>
+  <string name="Screenshots">Sadržaji ekrana</string>
+  <string name="Status">Stanje</string>
+  <string name="SettingPluginEnabledName">Dodatak omogućen</string>
+  <string name="SettingPluginEnabledDescription">Omogućite/onemogućite kontrolu ove postavke ako je dodatak Ekstenzije učitan s MediaPortalom.</string>
+  <string name="SettingListedHomeName">Na popisu u Početnom izborniku</string>
+  <string name="SettingListedHomeDescription">Omogućite ovu postavku za dodatak Ekstenzije da se pojavi među stavkama u Početnom izborniku.</string>
+  <string name="SettingListedPluginsName">Na popisu u Mojim dodacima</string>
+  <string name="SettingListedPluginsDescription">Omogućite ovu postavku za dodatak Ekstenzije da se pojavi među stavkama u izborniku Mojih dodataka.</string>
+  <string name="SettingsValidationInt">Unesena vrijednost mora biti broj!</string>
+  <string name="SettingsValidationIntMin">Unesena vrijednost mora biti veća ili jednaka {0}.</string>
+  <string name="SettingsValidationIntMax">Unesena vrijednost mora biti manja ili jednaka {0}.</string>
+  <!--T-->
+  <string name="Timeout">Isteklo vrijeme</string>
+  <!--U-->
+  <string name="Update">Ažurirajte</string>
+  <string name="UpdateAvailable">Dostupno je ažuriranje</string>
+  <string name="UpdateAll">Sve ažurirajte</string>
+  <string name="Updates">Ažuriranja</string>
+  <string name="Uninstall">Deinstalirajte</string>
+  <string name="UnKnownFileType">Nije moguća instalacija.\nOtkrivena nepoznata vrsta datoteke!</string>
+  <string name="UseSilent">Instalirajte ekstenziju \"tiho\"?</string>
+  <!--V-->
+  <string name="Views">Pogledi</string>
+  <string name="Version">Inačica</string>
+  <string name="Votes">Glasova</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Da</string>
+</resources>

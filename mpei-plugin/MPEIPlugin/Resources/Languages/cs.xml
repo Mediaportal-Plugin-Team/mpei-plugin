@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Vše</string>
+  <string name="Actions">Akce</string>
+  <!--C-->
+  <string name="CategoryMediaInfo">Údaje o médiu</string>
+  <!--D-->
+  <string name="Download">Stáhnout</string>
+  <string name="DateAdded">Datum přidání</string>
+  <!--E-->
+  <string name="Error">Chyba</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">Ne</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <string name="Rating">Hodnocení</string>
+  <string name="ReleaseDate">Datum vydání</string>
+  <string name="RestoreDefaults">Restore Defaults</string>
+  <!--S-->
+  <!--T-->
+  <string name="Timeout">Časový limit vypršel</string>
+  <!--U-->
+  <string name="Update">Aktualizovat</string>
+  <!--V-->
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Ano</string>
+</resources>

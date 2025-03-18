@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Tudo</string>
+  <string name="Actions">Ações</string>
+  <!--C-->
+  <string name="CategoryMediaInfo">Informação da midia</string>
+  <!--D-->
+  <string name="Download">Download</string>
+  <string name="DateAdded">Adicionado em</string>
+  <!--E-->
+  <string name="Error">Erro</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">Não</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <string name="Rating">Classificação</string>
+  <!--S-->
+  <string name="SettingPluginEnabledName"> Ligar Plugin</string>
+  <string name="SettingListedHomeName">Listados em Home</string>
+  <string name="SettingListedPluginsName">Listado em \"My Plugins\"</string>
+  <!--T-->
+  <!--U-->
+  <string name="Update">Atualizar</string>
+  <string name="UpdateAll">Atualizar tudo</string>
+  <!--V-->
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Sim</string>
+</resources>

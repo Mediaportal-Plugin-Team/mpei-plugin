@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Visi</string>
+  <string name="AlwaysCheckForUpdates">Visada tikrinti atnaujinimus</string>
+  <string name="Actions">Veiksmai</string>
+  <string name="ActionAdded">Veiksmas pridėtas į eilę</string>
+  <string name="ActionRemoved">Veiksmas pašalintas iš eilės</string>
+  <string name="AskForRestart">Šis veiksmas paleis MediaPortal iš naujo.⏎ Ar norite tęsti?</string>
+  <string name="Author">Autorius</string>
+  <string name="AllExtensions">Visi plėtiniai</string>
+  <!--C-->
+  <string name="ChangeLog">Pakeitimų žurnalas</string>
+  <string name="Compatibility">Suderinamumas</string>
+  <string name="CategoryRecentlyAdded">Paskutiniai pridėti plėtiniai</string>
+  <string name="CategoryRecentlyUpdated">Paskutiniai atnaujinti plėtiniai</string>
+  <string name="CategoryMostInstalled">Dažniausiai įdiegti plėtiniai</string>
+  <string name="CategoryFeatured">Dažniausiai rodomi plėtiniai</string>
+  <string name="CategoryMostPopular">Populiariausi plėtiniai</string>
+  <string name="CategoryMostRated">Dažniausiai vertinti plėtiniai</string>
+  <string name="CategoryTopRated">Aukščiausiai įvertinti plėtiniai</string>
+  <string name="CategoryMostReviewed">Dažniausiai peržiūrėti plėtiniai</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Tinkinimas</string>
+  <string name="CategoryBootScreens">Užkrovimas langas</string>
+  <string name="CategoryTools">Įrankiai</string>
+  <string name="CategorySystemUtilities">Sistema/Parankiniai</string>
+  <string name="CategoryUtilities">Parankiniai</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Drivers & Firmware]]></string>
+  <string name="CategoryCodecs">Kodekai</string>
+  <string name="CategoryLogos">Logotipai</string>
+  <string name="CategoryTVChannels">TV kanalai</string>
+  <string name="CategoryRadioStations">Radijo stotys</string>
+  <string name="CategoryMediaInfo">Media informacija</string>
+  <string name="CategorySkins">Apvalkalai</string>
+  <string name="CategoryWidescreen">Plačiaekranis</string>
+  <string name="CategoryNonWidescreen">Ne-plačiaekranis</string>
+  <string name="CategoryPlugins">Įskiepiai</string>
+  <string name="CategoryWeather">Orai</string>
+  <string name="CategoryOther">Kita</string>
+  <string name="CategorySystem">Sistema</string>
+  <string name="CategoryEmail">El. paštas</string>
+  <string name="CategoryPIMs">Asmeninės užrašinės (PIM)</string>
+  <string name="CategoryHomeAutomation">Namų automatika</string>
+  <string name="CategoryPictures">Nuotraukos</string>
+  <string name="CategoryRadio">Radijas</string>
+  <string name="CategoryInputOutput"><![CDATA[Input & Output]]></string>
+  <string name="CategoryOtherInputDevices">Kiti įvesties įrenginiai</string>
+  <string name="CategoryExternalDisplays">Išoriniai ekranai</string>
+  <string name="CategoryRemotes">Nuotolinio valdymo pultai</string>
+  <string name="CategoryNewsInfo"><![CDATA[News & Info]]></string>
+  <string name="CategoryInfo">Informacija</string>
+  <string name="CategoryNews">Naujienos</string>
+  <string name="CategoryGamesFun"><![CDATA[Games & Fun]]></string>
+  <string name="CategoryMusic">Muzika</string>
+  <string name="CategoryTelevision">Televizija</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Movies & Videos]]></string>
+  <!--D-->
+  <string name="Download">Atsisiųsti</string>
+  <string name="Downloads">Atsisiuntimai</string>
+  <string name="Disable">Išjungti</string>
+  <string name="DateAdded">Pridėjimo data</string>
+  <string name="Description">Aprašymas</string>
+  <string name="DownloadUpdates">Atsisiųsti atnaujinimus</string>
+  <string name="DownloadingUpdates">Siunčiami atnaujinimai</string>
+  <string name="DownloadingExtensionIndex">Siunčiamas plėtinių sąrašas</string>
+  <string name="DownloadingExtension">Siunčiamas plėtinių atnaujinimo aprašas</string>
+  <string name="DownloadProgress">Siuntimo progresas  [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Išeiti</string>
+  <string name="Enable">Įjungti</string>
+  <string name="Error">Klaida</string>
+  <string name="ErrorExtensionInfo">Klaida gaunant Plėtinio informaciją</string>
+  <string name="ErrorLoadingSite">Klaida užkraunant kategorijų sąrašą iš MediaPortalo puslapio</string>
+  <string name="ErrorLoadingExtensionList">Klaida užkraunant plėtinių sąrašą šioje kategorijoje</string>
+  <string name="ErrorDownloadingExtensionIndex">Klaida siunčiantis plėtinių sąrašą iš serverio</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Gaunamos kategorijos</string>
+  <string name="GetExtensionInfo">Gaunama plėtinių informacija</string>
+  <!--H-->
+  <string name="Hits">Paspaudimai</string>
+  <!--I-->
+  <string name="Id">ID</string>
+  <string name="Install">Įdiegti</string>
+  <string name="InstalledExtensions">Įdiegti plėtiniai</string>
+  <string name="InvalidUrl">Negalimas URL, plėtinio negalima atsisiųsti!</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">MP Website plėtiniai</string>
+  <!--N-->
+  <string name="Name">Plėtiniai</string>
+  <string name="NameInfo">Plėtinio informacija</string>
+  <string name="NameSettings">Plėtinio nustatymai</string>
+  <string name="NeverCheckForUpdates">Niekada netikrinti atnaujinimų</string>
+  <string name="NewExtensions">Nauji plėtiniai</string>
+  <string name="NewUpdates">Nauji atnaujinimai</string>
+  <string name="NewVersion">Nauja versija</string>
+  <string name="Notification">MPEI pranešimas</string>
+  <string name="NotificationWarning">Dar yra laukiančių diegimo užduočių. ⏎ Perkrauti ir įvykdyti dabar?</string>
+  <string name="NotificationMessage">Ar norite perkrauti MediaPortal⏎ ir įvykdyti laukiančias užduotis dabar?</string>
+  <string name="No">Ne</string>
+  <string name="NoScreenshots">Šiam plėtiniui neturime vaizdo nuotraukų.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Online plėtiniai</string>
+  <!--P-->
+  <string name="Plugin">Įskiepis</string>
+  <!--R-->
+  <string name="Rating">Vertinimas</string>
+  <string name="Revoke">Panakinti</string>
+  <string name="ReleaseDate">Išleidimo data</string>
+  <string name="Restart">Perkrauti</string>
+  <string name="Rotate">Pasukti</string>
+  <string name="RevokeLastAction">Panaikinti paskutinį veiksmą</string>
+  <string name="RestartNow">Šis veiksmas reikalaują perkrauti ⏎ MediaPortal. Ar norite perkrauti dabar?⏎ Jei ne, užduotis bus padėta į eilę.</string>
+  <string name="RestoreDefaultValue">Atstatyti numatytąją reikšmę</string>
+  <string name="RestoreDefaults">Atstatyti numatytus</string>
+  <string name="RestoreAllDefaults">Atstatyti visas numatytąsias reikšmes</string>
+  <!--S-->
+  <string name="Sections">Skiltys</string>
+  <string name="Settings">Nustatymai</string>
+  <string name="ShowChangelogs">Rodyti pakeitimų žurnalą</string>
+  <string name="ShowSreenshots">Rodyti ekrano vaizdus</string>
+  <string name="SelectVersionToInstall">Pasirinkti versiją iš(į-)diegimui</string>
+  <string name="SelectVersion">Pasirinkti versiją</string>
+  <string name="StartSlideshow">Rodyti skaidres</string>
+  <string name="Screenshots">Ekrano vaizdai</string>
+  <string name="Status">Būklė</string>
+  <string name="SettingPluginEnabledName">Įskiepis įjungtas</string>
+  <string name="SettingPluginEnabledDescription">Įjungti/ išjungti šį nustatymą, kad jis būtų užkrautas pradedant MediaPortal.</string>
+  <string name="SettingListedHomeName">Pagrindiniame ekrane</string>
+  <string name="SettingListedHomeDescription">Įjunkite šį nustatymą jei norite kad Plėtinių įskiepį rodytume pagrindiniame meniu ekrane.</string>
+  <string name="SettingListedPluginsName">Rodomi Mano Įskiepiuose</string>
+  <string name="SettingListedPluginsDescription">Įjunkite šį nustatymą jei norite kad Plėtinių įskiepį rodytume Mano Įskiepių meniu ekrane.</string>
+  <string name="SettingsValidationInt">Įvesta vertė turi būti skaitinė.</string>
+  <string name="SettingsValidationIntMin">Įvesta vertė turi būti daugiau arba lygi {0}.</string>
+  <string name="SettingsValidationIntMax">Įvesta vertė turi būti mažiau arba lygi {0}.</string>
+  <!--T-->
+  <string name="Timeout">Pertrauka</string>
+  <!--U-->
+  <string name="Update">Atnaujinti</string>
+  <string name="UpdateAvailable">Yra atnaujinimų</string>
+  <string name="UpdateAll">Atnaujinti viską</string>
+  <string name="Updates">Atnaujinimai</string>
+  <string name="Uninstall">Išdiegti</string>
+  <string name="UnKnownFileType">Diegimas neįmanomas⏎ Neatpažintas failo tipas!</string>
+  <string name="UseSilent">Įdiegti plėtinį tyliai?</string>
+  <!--V-->
+  <string name="Views">Vaizdai</string>
+  <string name="Version">Versija</string>
+  <string name="Votes">Balsai</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Taip</string>
+</resources>

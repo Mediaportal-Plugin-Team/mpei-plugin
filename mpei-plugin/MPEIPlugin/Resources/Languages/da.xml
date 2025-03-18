@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Alle</string>
+  <string name="AlwaysCheckForUpdates">Tjek altid for opdateringer</string>
+  <string name="Actions">Muligheder</string>
+  <string name="ActionAdded">Handlingen blev tilføjet til køen</string>
+  <string name="ActionRemoved">Handlingen blev fjernet fra køen</string>
+  <!--C-->
+  <string name="ChangeLog">Change Log</string>
+  <string name="CategoryMediaInfo">Media info</string>
+  <string name="CategoryPlugins">Tilføjelser</string>
+  <string name="CategoryEmail">Email</string>
+  <string name="CategoryNews">Nyheder</string>
+  <string name="CategoryMusic">Musik</string>
+  <!--D-->
+  <string name="Download">Hent</string>
+  <string name="DateAdded">Dato tilføjet</string>
+  <!--E-->
+  <string name="Exit">Exit</string>
+  <string name="Error">Fejl</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <string name="Install">Installer</string>
+  <string name="InstalledExtensions">Installerede udvidelser</string>
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="Name">Udvidelser</string>
+  <string name="NeverCheckForUpdates">Tjek aldrig for opdateringer</string>
+  <string name="NewExtensions">Nye udvidelser</string>
+  <string name="NewUpdates">Nye opdateringer</string>
+  <string name="Notification">Påmindelse</string>
+  <string name="No">Nej</string>
+  <!--O-->
+  <string name="OnlineExtensions">Online Extensions</string>
+  <!--P-->
+  <string name="Plugin">Tilføjelse</string>
+  <!--R-->
+  <string name="Rating">Vurdering</string>
+  <string name="ReleaseDate">Udgivelses Dato</string>
+  <string name="Restart">Genstart</string>
+  <string name="Rotate">Rotér</string>
+  <string name="RevokeLastAction">Fortryd sidste handling</string>
+  <string name="RestoreDefaults">Restore Defaults</string>
+  <!--S-->
+  <string name="Settings">Indstillinger</string>
+  <string name="ShowChangelogs">Vis changelogs</string>
+  <string name="ShowSreenshots">Vis sreenshots</string>
+  <string name="SelectVersionToInstall">Vælg version for at (gen)installere</string>
+  <string name="SelectVersion">Vælg version</string>
+  <string name="StartSlideshow">Start slideshow</string>
+  <string name="SettingPluginEnabledName">Tilføjelse slået til</string>
+  <string name="SettingListedHomeName">Vis i Hjem</string>
+  <string name="SettingListedPluginsName">Vis i Mine Tilføjelser</string>
+  <!--T-->
+  <string name="Timeout">Timeout</string>
+  <!--U-->
+  <string name="Update">Opdater</string>
+  <string name="UpdateAll">Opdater alle</string>
+  <string name="Updates">Opdatering</string>
+  <string name="Uninstall">Fjern</string>
+  <!--V-->
+  <string name="Views">Syn</string>
+  <string name="Votes">Stemmer</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Ja</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Všetky</string>
+  <string name="AlwaysCheckForUpdates">Vždy kontrolovať aktualizácie</string>
+  <string name="Actions">Akcie</string>
+  <string name="ActionAdded">Akcia bola zaradená</string>
+  <string name="ActionRemoved">Akcia bola vybratá z radu</string>
+  <string name="AskForRestart">Operácia reštartuje MediaPortal.\nPrajete si pokračovať?</string>
+  <string name="Author">Autor</string>
+  <string name="AllExtensions">Všetky rozšírenia</string>
+  <!--C-->
+  <string name="ChangeLog">Denník zmien</string>
+  <string name="Compatibility">Kompatibilita</string>
+  <string name="CategoryRecentlyAdded">Čerstvo pridané rozšírenia</string>
+  <string name="CategoryRecentlyUpdated">Čerstvo aktualizované rozšírenia</string>
+  <string name="CategoryMostInstalled">Najviac inštalované rozšírenia</string>
+  <string name="CategoryFeatured">Odporúčané rozšírenia</string>
+  <string name="CategoryMostPopular">Najpopulárnejšie rozšírenia</string>
+  <string name="CategoryMostRated">Najviac hodnotené rozšírenia</string>
+  <string name="CategoryTopRated">Najlepšie hodnotené rozšírenia</string>
+  <string name="CategoryMostReviewed">Najviac recenzované rozšírenia</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Prispôsobenie</string>
+  <string name="CategoryBootScreens">Štatovacie obrazovky</string>
+  <string name="CategoryTools">Nástroje</string>
+  <string name="CategorySystemUtilities">Systém/Pomôcky</string>
+  <string name="CategoryUtilities">Pomôcky</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Drivers & Firmware]]></string>
+  <string name="CategoryCodecs">Kodeky</string>
+  <string name="CategoryLogos">Logá</string>
+  <string name="CategoryTVChannels">TV kanály</string>
+  <string name="CategoryRadioStations">Stanice rádia</string>
+  <string name="CategoryMediaInfo">Media Info</string>
+  <string name="CategorySkins">Vzhľady</string>
+  <string name="CategoryWidescreen">Širokouhlé</string>
+  <string name="CategoryNonWidescreen">Širokouhlý</string>
+  <string name="CategoryPlugins">Doplnky</string>
+  <string name="CategoryWeather">Počasie</string>
+  <string name="CategoryOther">Iné</string>
+  <string name="CategorySystem">Systém</string>
+  <string name="CategoryEmail">Email</string>
+  <string name="CategoryPIMs">PIM</string>
+  <string name="CategoryHomeAutomation">Automatizovaná domácnosť</string>
+  <string name="CategoryPictures">Galéria</string>
+  <string name="CategoryRadio">Rádio</string>
+  <string name="CategoryInputOutput"><![CDATA[Input & Output]]></string>
+  <string name="CategoryOtherInputDevices">Iné vstupné zariadenia</string>
+  <string name="CategoryExternalDisplays">Externé displeje</string>
+  <string name="CategoryRemotes">Dialkové ovládanie</string>
+  <string name="CategoryNewsInfo"><![CDATA[News & Info]]></string>
+  <string name="CategoryInfo">Info</string>
+  <string name="CategoryNews">Správy</string>
+  <string name="CategoryGamesFun"><![CDATA[Games & Fun]]></string>
+  <string name="CategoryMusic">Hudba</string>
+  <string name="CategoryTelevision">TV</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Movies & Videos]]></string>
+  <!--D-->
+  <string name="Download">Sťahovanie</string>
+  <string name="Downloads">Sťahovania</string>
+  <string name="Disable">Nepovoliť</string>
+  <string name="DateAdded">Dátum pridania</string>
+  <string name="Description">Popis</string>
+  <string name="DownloadUpdates">Stiahnuť aktualizácie</string>
+  <string name="DownloadingUpdates">Stiahovanie aktualizácií</string>
+  <string name="DownloadingExtensionIndex">Sťahovanie zoznamu rozšírení</string>
+  <string name="DownloadingExtension">Sťahovanie zoznamu aktualizácií</string>
+  <string name="DownloadProgress">Sťahovanie [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Ukončiť</string>
+  <string name="Enable">Povoliť</string>
+  <string name="Error">Chyba</string>
+  <string name="ErrorExtensionInfo">Chyba získavania inf. o rozšírení</string>
+  <string name="ErrorLoadingSite">Chyba načítania zoznamu kategórií z webu MediPortalu</string>
+  <string name="ErrorLoadingExtensionList">Chyba načítania zoznamu rozšírení pre kategóriu</string>
+  <string name="ErrorDownloadingExtensionIndex">Chyba sťahovania zoznamu rozšírení zo servera</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Prijímam kategórie</string>
+  <string name="GetExtensionInfo">Prijímam info o rozšírení</string>
+  <!--H-->
+  <string name="Hits">Nálezy</string>
+  <!--I-->
+  <string name="Id">ID</string>
+  <string name="Install">Inštalovať</string>
+  <string name="InstalledExtensions">Inštalované rozšírenia</string>
+  <string name="InvalidUrl">Neplatná URL, rozšírenie nie je možné stiahnuť.</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">Rozšírenia webu MP</string>
+  <!--N-->
+  <string name="Name">Rozšírenia</string>
+  <string name="NameInfo">Info o rozšírení</string>
+  <string name="NameSettings">Nastavenie rozšírenia</string>
+  <string name="NeverCheckForUpdates">Nidky nekontrolovať aktualizácie</string>
+  <string name="NewExtensions">Nové rozšírenia</string>
+  <string name="NewUpdates">Nové aktualizácie</string>
+  <string name="NewVersion">Nová verzia</string>
+  <string name="Notification">MPEI Notifikácia</string>
+  <string name="NotificationWarning">Úlohu inštalácie stále čakajú. Reštartovať a vykonať ich hneď?</string>
+  <string name="NotificationMessage">Prajete si reštartovať MediaPortal a vykonať čakajúce úlohy ihneď?</string>
+  <string name="No">Nie</string>
+  <string name="NoScreenshots">Rozšírenie nemá dostupné žiadne snímky obrazovky.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Online rozšírenia</string>
+  <!--P-->
+  <string name="Plugin">Doplnok</string>
+  <!--R-->
+  <string name="Rating">Hodnotenie</string>
+  <string name="Revoke">Odvolať</string>
+  <string name="ReleaseDate">Dátum vydánia</string>
+  <string name="Restart">Reštart</string>
+  <string name="Rotate">Rotovať</string>
+  <string name="RevokeLastAction">Odvolať poslednú akciu</string>
+  <string name="RestartNow">Operácia vyžaduje reštart\nMediaPortalu. Prajete si to vykonať hneď?\nPokiaľ nie, vykoná sa neskôr.</string>
+  <string name="RestoreDefaultValue">Obnoviť predvolenú hodnotu</string>
+  <string name="RestoreDefaults">Nastaviť východzie hodnoty</string>
+  <string name="RestoreAllDefaults">Obnoviť všetky predvolené hodnoty</string>
+  <!--S-->
+  <string name="Sections">Sekcie</string>
+  <string name="Settings">Nastavenie</string>
+  <string name="ShowChangelogs">Zobraz záznam o zmenách</string>
+  <string name="ShowSreenshots">Zobraz snímky obrazovky</string>
+  <string name="SelectVersionToInstall">Vyberte verziu na (re)inštaláciu</string>
+  <string name="SelectVersion">Vyberte verziu</string>
+  <string name="StartSlideshow">Spustiť prezentáciu</string>
+  <string name="Screenshots">Snímky obrazovky</string>
+  <string name="Status">Stav</string>
+  <string name="SettingPluginEnabledName">Doplnok povoelný</string>
+  <string name="SettingPluginEnabledDescription">Povoľte / zakážte, podľa toho či sa má doplnok rozšírení načítať s MediaPortalom.</string>
+  <string name="SettingListedHomeName">Počúvať doma</string>
+  <string name="SettingListedHomeDescription">Povoľte, ak si prajete aby sa doplnok rozšírení zobrazoval na domácej obrazovke ako položka menu.</string>
+  <string name="SettingListedPluginsName">Uvedené do mojich doplnkov</string>
+  <string name="SettingListedPluginsDescription">Povoľte, ak si prajete aby sa doplnok rozšírení zobrazoval v My Plugins ako položka menu.</string>
+  <string name="SettingsValidationInt">Zadaná hodnota musí byť číslo.</string>
+  <string name="SettingsValidationIntMin">Zadaná hodnota musí byť väčšia alebo rovná {0}.</string>
+  <string name="SettingsValidationIntMax">Zadaná hodnota musí byť menšia alebo rovná {0}.</string>
+  <!--T-->
+  <string name="Timeout">Timeout</string>
+  <!--U-->
+  <string name="Update">Aktualizovať</string>
+  <string name="UpdateAvailable">Aktualizácia dostupná</string>
+  <string name="UpdateAll">Aktualizovať všetko</string>
+  <string name="Updates">Aktualizácie</string>
+  <string name="Uninstall">Odinštalovať</string>
+  <string name="UnKnownFileType">Inštalácia nie je možná\nBol zistený neznámy typ súboru.</string>
+  <string name="UseSilent">Inštalovať rozšírenie potichu?</string>
+  <!--V-->
+  <string name="Views">Pohľady</string>
+  <string name="Version">Verzia</string>
+  <string name="Votes">Hlasov</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Áno</string>
+</resources>

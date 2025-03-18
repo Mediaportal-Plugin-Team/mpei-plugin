@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">הכל</string>
+  <string name="Actions">פעולות</string>
+  <!--C-->
+  <!--D-->
+  <string name="Download">הורד</string>
+  <string name="DateAdded">תאריך הוספה</string>
+  <!--E-->
+  <string name="Error">שגיאה</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">לא</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <string name="Rating">דירוג</string>
+  <string name="ReleaseDate">תאריך שחרור</string>
+  <!--S-->
+  <!--T-->
+  <!--U-->
+  <string name="Update">עדכון</string>
+  <!--V-->
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">כן</string>
+</resources>

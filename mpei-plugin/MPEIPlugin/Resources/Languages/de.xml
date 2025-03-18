@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Alle</string>
+  <string name="AlwaysCheckForUpdates">Immer nach Updates suchen</string>
+  <string name="Actions">Aktionen</string>
+  <string name="ActionAdded">Aktion wurde in Warteschlange gespeichert</string>
+  <string name="ActionRemoved">Aktion wurde aus Warteschlange gelöscht</string>
+  <string name="AskForRestart">Diese Aktion startet MediaPortal neu.\nMöchten Sie fortfahren?</string>
+  <string name="Author">Autor</string>
+  <string name="AllExtensions">Alle Erweiterungen</string>
+  <!--C-->
+  <string name="ChangeLog">Änderungen</string>
+  <string name="Compatibility">Kompatibel mit</string>
+  <string name="CategoryRecentlyAdded">Neu hinzugefügte Erweiterungen</string>
+  <string name="CategoryRecentlyUpdated">Zuletzt geupdatete Erweiterungen</string>
+  <string name="CategoryMostInstalled">Meist installierte Erweiterungen</string>
+  <string name="CategoryFeatured">Vorgestellte Erweiterungen</string>
+  <string name="CategoryMostPopular">Beliebteste Erweiterungen</string>
+  <string name="CategoryMostRated">Meist bewertete Erweiterungen</string>
+  <string name="CategoryTopRated">Best bewertete Erweiterungen</string>
+  <string name="CategoryMostReviewed">Meist bewertete Erweiterung</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Individualisierung</string>
+  <string name="CategoryBootScreens">Boot Bildschirm</string>
+  <string name="CategoryTools">Werkzeuge</string>
+  <string name="CategorySystemUtilities">System/Nützliches</string>
+  <string name="CategoryUtilities">Nützliches</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Treiber & Firmware]]></string>
+  <string name="CategoryCodecs">Codecs</string>
+  <string name="CategoryLogos">Logos</string>
+  <string name="CategoryTVChannels">TV Kanäle</string>
+  <string name="CategoryRadioStations">Radio Sender</string>
+  <string name="CategoryMediaInfo">Medien-Info</string>
+  <string name="CategorySkins">Skins</string>
+  <string name="CategoryWidescreen">Breitbild</string>
+  <string name="CategoryNonWidescreen">Nicht-Breitbild</string>
+  <string name="CategoryPlugins">Plugins</string>
+  <string name="CategoryWeather">Wetter</string>
+  <string name="CategoryOther">Anderes</string>
+  <string name="CategorySystem">System</string>
+  <string name="CategoryEmail">Email</string>
+  <string name="CategoryPIMs">PIMs</string>
+  <string name="CategoryHomeAutomation">Haus Steuerung</string>
+  <string name="CategoryPictures">Bilder</string>
+  <string name="CategoryRadio">Radio</string>
+  <string name="CategoryInputOutput"><![CDATA[Eingabe & Ausgabe]]></string>
+  <string name="CategoryOtherInputDevices">Andere Eingabegeräte</string>
+  <string name="CategoryExternalDisplays">Externe Bildschirme</string>
+  <string name="CategoryRemotes">Fernbedienungen</string>
+  <string name="CategoryNewsInfo"><![CDATA[Nachrichten & Informationen]]></string>
+  <string name="CategoryInfo">Info</string>
+  <string name="CategoryNews">Nachrichten</string>
+  <string name="CategoryGamesFun"><![CDATA[Spiele & Spaß]]></string>
+  <string name="CategoryMusic">Musik</string>
+  <string name="CategoryTelevision">Fernseher</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Filme & Videos]]></string>
+  <!--D-->
+  <string name="Download">Download</string>
+  <string name="Downloads">Downloads</string>
+  <string name="Disable">Deaktivieren</string>
+  <string name="DateAdded">Hinzugefügt</string>
+  <string name="Description">Beschreibung</string>
+  <string name="DownloadUpdates">Updates herunterladen</string>
+  <string name="DownloadingUpdates">Lade Updates herunter</string>
+  <string name="DownloadingExtensionIndex">Lade Erweiterungsindex herunter</string>
+  <string name="DownloadingExtension">Lade Erweiterungs Update Definitionen herunter</string>
+  <string name="DownloadProgress">Download Fortschritt [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Beenden</string>
+  <string name="Enable">Aktivieren</string>
+  <string name="Error">Fehler!</string>
+  <string name="ErrorExtensionInfo">Fehler beim Laden der Erweiterungs Informationen</string>
+  <string name="ErrorLoadingSite">Fehler beim Laden der Kategorien von der MP-Webseite </string>
+  <string name="ErrorLoadingExtensionList">Fehler beim Laden der Erweiterungen für diese Kategorie</string>
+  <string name="ErrorDownloadingExtensionIndex">Fehler beim herunterladen der Erweiterungsliste vom Server</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Kategorien werden abgerufen</string>
+  <string name="GetExtensionInfo">Infos der Erweiterungen werden abgerufen</string>
+  <!--H-->
+  <string name="Hits">Aufrufe</string>
+  <!--I-->
+  <string name="Id">ID</string>
+  <string name="Install">Installieren</string>
+  <string name="InstalledExtensions">Installierte Erweiterungen</string>
+  <string name="InvalidUrl">Ungültige URL, Erweiterung kann nicht geladen werden!</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">MP-Erweiterungen auf Webseite</string>
+  <!--N-->
+  <string name="Name">Erweiterungen</string>
+  <string name="NameInfo">Erweiterungs Informationen</string>
+  <string name="NameSettings">Erweiteruns Einstellungen</string>
+  <string name="NeverCheckForUpdates">Niemals nach Updates suchen</string>
+  <string name="NewExtensions">Neue Erweiterungen</string>
+  <string name="NewUpdates">Neue Updates</string>
+  <string name="NewVersion">Neue Version</string>
+  <string name="Notification">Benachrichtigung</string>
+  <string name="NotificationWarning">Es gibt ausstehende Aktionen.\nNeustarten und jetzt ausführen?</string>
+  <string name="NotificationMessage">Möchten Sie MediaPortal neu starten\nund ausstehende Aktionen jetzt ausführen?</string>
+  <string name="No">Nein</string>
+  <string name="NoScreenshots">Für diese Erweiterung sind keine Screenshots verfügbar.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Erweiterungen Online</string>
+  <!--P-->
+  <string name="Plugin">Plugin</string>
+  <!--R-->
+  <string name="Rating">Bewertung</string>
+  <string name="Revoke">Verwerfen</string>
+  <string name="ReleaseDate">Veröffentlicht</string>
+  <string name="Restart">Neustart</string>
+  <string name="Rotate">Änderungen verwerfen</string>
+  <string name="RevokeLastAction">Letzte Aktion verwerfen?</string>
+  <string name="RestartNow">Diese Aktione erfordert einen Neustart von\nMediaPortal. Jetzt neu starten?\nFalls nicht, wird die Aktion in die\nWarteschlange eingereiht.</string>
+  <string name="RestoreDefaultValue">Voreinstellungen wiederherstellen</string>
+  <string name="RestoreDefaults">Voreinstellungen laden</string>
+  <string name="RestoreAllDefaults">Alle Voreinstellungen wiederherstellen</string>
+  <!--S-->
+  <string name="Sections">Sektionen</string>
+  <string name="Settings">Einstellungen</string>
+  <string name="ShowChangelogs">Änderungen anzeigen</string>
+  <string name="ShowSreenshots">Screenshots anzeigen</string>
+  <string name="SelectVersionToInstall">Version zur (Neu-)Installation</string>
+  <string name="SelectVersion">Version wählen</string>
+  <string name="StartSlideshow">Diaschau starten</string>
+  <string name="Screenshots">Screenshots</string>
+  <string name="Status">Status</string>
+  <string name="SettingPluginEnabledName">Plugin aktiviert</string>
+  <string name="SettingPluginEnabledDescription">Aktivieren / Deaktivieren dieser Einstellung zur Kontrolle, ob das Trakt-Plugin mit MediaPortal geladen wird.</string>
+  <string name="SettingListedHomeName">Im Home-Bildschirm anzeigen</string>
+  <string name="SettingListedHomeDescription">Diese Einstellung bewirkt die Anzeige des Erweiterungs-Plugins im Hauptmenü.</string>
+  <string name="SettingListedPluginsName">In Meine Plugins gelistet</string>
+  <string name="SettingListedPluginsDescription">Diese Einstellung bewirkt die Anzeige des Erweiterungs-Plugins im Plugins-Menü.</string>
+  <string name="SettingsValidationInt">Bitte geben sie eine Nummer ein.</string>
+  <string name="SettingsValidationIntMin">Die eingegebene Nummer muss größer oder gleich {0} sein.</string>
+  <string name="SettingsValidationIntMax">Die eingegebene Nummer muss kleiner als {0} sein.</string>
+  <!--T-->
+  <string name="Timeout">Zeitüberschreitung</string>
+  <!--U-->
+  <string name="Update">Aktualisieren</string>
+  <string name="UpdateAvailable">Verfügbare aktualisieren</string>
+  <string name="UpdateAll">Alles aktualisieren</string>
+  <string name="Updates">Updates</string>
+  <string name="Uninstall">Deinstallieren</string>
+  <string name="UnKnownFileType">Installation nicht möglich\nUnbekannter Dateityp!</string>
+  <string name="UseSilent">Installation im Hintergrund?</string>
+  <!--V-->
+  <string name="Views">Ansicht</string>
+  <string name="Version">Version</string>
+  <string name="Votes">Stimmen</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Ja</string>
+</resources>

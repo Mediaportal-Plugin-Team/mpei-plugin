@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Все</string>
+  <string name="AlwaysCheckForUpdates">Всегда проверять обновления</string>
+  <string name="Actions">Действия</string>
+  <string name="ActionAdded">Действие было добавлено в очередь</string>
+  <string name="ActionRemoved">Действие удалено из очереди</string>
+  <string name="AskForRestart">Действие требует перезапуска Медиапортала.\nПродолжить?</string>
+  <string name="Author">Автор</string>
+  <string name="AllExtensions">Все расширения</string>
+  <!--C-->
+  <string name="ChangeLog">Лог изменений</string>
+  <string name="Compatibility">Совместимость</string>
+  <string name="CategoryRecentlyAdded">Недавно добавленные расширения</string>
+  <string name="CategoryRecentlyUpdated">Недавно обновленные расширения</string>
+  <string name="CategoryMostInstalled">Часто устанавливаемые расширения</string>
+  <string name="CategoryFeatured">Рекомендуемые расширения</string>
+  <string name="CategoryMostPopular">Наиболее популярные расширения</string>
+  <string name="CategoryMostRated">Часто отмечаемые расширения</string>
+  <string name="CategoryTopRated">Лучшие по рейтингу расширения</string>
+  <string name="CategoryMostReviewed">Наиболее обсуждаемые расширения</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Индивидуализация</string>
+  <string name="CategoryBootScreens">Загрузочные экраны</string>
+  <string name="CategoryTools">Утилиты</string>
+  <string name="CategorySystemUtilities">Системные утилиты</string>
+  <string name="CategoryUtilities">Утилиты</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Драйверы и прошивки]]></string>
+  <string name="CategoryCodecs">Кодеки</string>
+  <string name="CategoryLogos">Логотипы</string>
+  <string name="CategoryTVChannels">ТВ каналы</string>
+  <string name="CategoryRadioStations">Радиостанции</string>
+  <string name="CategoryMediaInfo">Медиаинформация</string>
+  <string name="CategorySkins">Скины</string>
+  <string name="CategoryWidescreen">Широкоэкранные</string>
+  <string name="CategoryNonWidescreen">Неширокоформатные</string>
+  <string name="CategoryPlugins">Дополнения</string>
+  <string name="CategoryWeather">Погода</string>
+  <string name="CategoryOther">Другое</string>
+  <string name="CategorySystem">Система</string>
+  <string name="CategoryEmail">Электронная почта</string>
+  <string name="CategoryPIMs">Мессенджеры</string>
+  <string name="CategoryHomeAutomation">Умный дом</string>
+  <string name="CategoryPictures">Изображения</string>
+  <string name="CategoryRadio">Радио</string>
+  <string name="CategoryInputOutput"><![CDATA[Ввод и вывод]]></string>
+  <string name="CategoryOtherInputDevices">Другие устройства ввода</string>
+  <string name="CategoryExternalDisplays">Внешние дисплеи</string>
+  <string name="CategoryRemotes">Пульты ДУ</string>
+  <string name="CategoryNewsInfo"><![CDATA[Новости и информация]]></string>
+  <string name="CategoryInfo">Информация</string>
+  <string name="CategoryNews">Новости</string>
+  <string name="CategoryGamesFun"><![CDATA[Игры и развлечения]]></string>
+  <string name="CategoryMusic">Музыка</string>
+  <string name="CategoryTelevision">Телевидение</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Фильмы и видео]]></string>
+  <!--D-->
+  <string name="Download">Скачать</string>
+  <string name="Downloads">Загрузок</string>
+  <string name="Disable">Отключить</string>
+  <string name="DateAdded">Добавлено</string>
+  <string name="Description">Описание</string>
+  <string name="DownloadUpdates">Загрузить обновления</string>
+  <string name="DownloadingUpdates">Загрузка обновлений</string>
+  <string name="DownloadingExtensionIndex">Загрузка списка расширений</string>
+  <string name="DownloadingExtension">Загрузка информации об обновлении расширений</string>
+  <string name="DownloadProgress">Загрузка [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Выход</string>
+  <string name="Enable">Включить</string>
+  <string name="Error">Ошибка</string>
+  <string name="ErrorExtensionInfo">Ошибка при получении информации о расширении</string>
+  <string name="ErrorLoadingSite">Ошибка загрузки списка категорий с сайта Медиапортала</string>
+  <string name="ErrorLoadingExtensionList">Ошибка загрузки списка расширений в категории</string>
+  <string name="ErrorDownloadingExtensionIndex">Ошибка загрузки списка расширений с сервера</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Получение категорий</string>
+  <string name="GetExtensionInfo">Получение информации о расширении</string>
+  <!--H-->
+  <string name="Hits">Просмотров</string>
+  <!--I-->
+  <string name="Id">Идентификатор</string>
+  <string name="Install">Установить</string>
+  <string name="InstalledExtensions">Установленные расширения</string>
+  <string name="InvalidUrl">Неправильная ссылка, расширение не может быть загружено!</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">Расширения на сайте Медиапортала</string>
+  <!--N-->
+  <string name="Name">Расширения</string>
+  <string name="NameInfo">Информация о расширении</string>
+  <string name="NameSettings">Настройки расширения</string>
+  <string name="NeverCheckForUpdates">Никогда не проверять обновления</string>
+  <string name="NewExtensions">Новые расширения</string>
+  <string name="NewUpdates">Новые обновления</string>
+  <string name="NewVersion">Новая версия</string>
+  <string name="Notification">Уведомление MPEI</string>
+  <string name="NotificationWarning">Остались задания на установку.\nПерезапустить и выполнить сейчас?</string>
+  <string name="NotificationMessage">Перезагрузить Медиапортал\nи выполнить установку сейчас?</string>
+  <string name="No">Нет</string>
+  <string name="NoScreenshots">Скриншоты для расширения отсутствуют.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Расширения в онлайне</string>
+  <!--P-->
+  <string name="Plugin">Диполнение</string>
+  <!--R-->
+  <string name="Rating">Рейтинг</string>
+  <string name="Revoke">Отменить</string>
+  <string name="ReleaseDate">Дата Релиза</string>
+  <string name="Restart">Перезапуск</string>
+  <string name="Rotate">Отразить</string>
+  <string name="RevokeLastAction">Отменить последнее действие</string>
+  <string name="RestartNow">Действие приведет к перезапуску\nМедиапортала. Перезапустить сейчас?\nИначе задание будет добавлено в очередь.</string>
+  <string name="RestoreDefaultValue">Восстановить исходное значение</string>
+  <string name="RestoreDefaults">Восстановить умолчания</string>
+  <string name="RestoreAllDefaults">Восстановить все исходные значения</string>
+  <!--S-->
+  <string name="Sections">Секции</string>
+  <string name="Settings">Настройки</string>
+  <string name="ShowChangelogs">Показать лог изменений</string>
+  <string name="ShowSreenshots">Показать скриншоты</string>
+  <string name="SelectVersionToInstall">Выберите версию для  (пере)установки</string>
+  <string name="SelectVersion">Выберите версию</string>
+  <string name="StartSlideshow">Начать показ слайдов</string>
+  <string name="Screenshots">Скриншоты</string>
+  <string name="Status">Статус</string>
+  <string name="SettingPluginEnabledName">Дополнение активировано</string>
+  <string name="SettingPluginEnabledDescription">Активируйте/деактивируйте эту настройку для загрузки Моих Расширений вместе с Медиапорталом.</string>
+  <string name="SettingListedHomeName">Расположено в главном меню</string>
+  <string name="SettingListedHomeDescription">Активируйте эту настройку для появления Моих Расширений на главном экране меню.</string>
+  <string name="SettingListedPluginsName">Расположено в Моих Плагинах</string>
+  <string name="SettingListedPluginsDescription">Активируйте эту настройку для появления Моих Расширений в Моих Плагинах.</string>
+  <string name="SettingsValidationInt">Введенное значение должно быть числом.</string>
+  <string name="SettingsValidationIntMin">Введенное значение должно быть больше или равно {0}.</string>
+  <string name="SettingsValidationIntMax">Введенное значение должно быть меньше или равно {0}.</string>
+  <!--T-->
+  <string name="Timeout">Время истекло</string>
+  <!--U-->
+  <string name="Update">Обновить</string>
+  <string name="UpdateAvailable">Доступно обновление</string>
+  <string name="UpdateAll">Обновить все</string>
+  <string name="Updates">Обновления</string>
+  <string name="Uninstall">Удалить</string>
+  <string name="UnKnownFileType">Установка невозможна\nНеизвестный тип файла!</string>
+  <string name="UseSilent">Установить расширение в фоне?</string>
+  <!--V-->
+  <string name="Views">Представления</string>
+  <string name="Version">Версия</string>
+  <string name="Votes">Голоса</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Да</string>
+</resources>

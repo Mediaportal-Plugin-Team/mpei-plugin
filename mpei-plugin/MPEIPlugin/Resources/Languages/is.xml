@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Allir</string>
+  <string name="AlwaysCheckForUpdates">Alltaf að athuga með uppfærslur</string>
+  <string name="Actions">Aðgerðir</string>
+  <string name="ActionAdded">Aðgerð bætt við í verkröð</string>
+  <string name="ActionRemoved">Aðgerð eytt úr verkröð</string>
+  <string name="AskForRestart">Þessi aðgerð mun endurræsa MediaPotal.\nViltu halda áfram?</string>
+  <string name="Author">Höfundur</string>
+  <string name="AllExtensions">Allar viðbætur</string>
+  <!--C-->
+  <string name="CategoryRecentlyAdded">Nýlegar viðbætur</string>
+  <string name="CategoryRecentlyUpdated">Nýlega uppfærðar viðbætur</string>
+  <string name="CategoryMostInstalled">Vinsælustu viðbæturnar</string>
+  <string name="CategoryMostPopular">Vinsælustu viðbæturnar</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryTVChannels">Sjónvarpsstöðvar</string>
+  <string name="CategoryRadioStations">Útvarpsstöðvar</string>
+  <string name="CategorySkins">Skin</string>
+  <string name="CategoryWidescreen">Breiðtjald</string>
+  <string name="CategoryPlugins">Viðbætur</string>
+  <string name="CategoryWeather">Veður</string>
+  <string name="CategoryOther">Annað</string>
+  <string name="CategorySystem">Kerfi</string>
+  <string name="CategoryEmail">Tölvupóstur</string>
+  <string name="CategoryPictures">Ljósmyndir</string>
+  <string name="CategoryRadio">Útvarp</string>
+  <string name="CategoryExternalDisplays">Auka skjáir</string>
+  <string name="CategoryRemotes">Fjarstýringar</string>
+  <string name="CategoryInfo">Uppl.</string>
+  <string name="CategoryNews">Fréttir</string>
+  <string name="CategoryMusic">Tónlist</string>
+  <string name="CategoryTelevision">Sjónvarp</string>
+  <!--D-->
+  <string name="Download">Sækja</string>
+  <string name="Downloads">Niðurhöl</string>
+  <string name="Disable">Óvirkt</string>
+  <string name="DateAdded">Dags bætt við</string>
+  <string name="Description">Lýsing</string>
+  <string name="DownloadUpdates">Sækja uppfærslur</string>
+  <string name="DownloadingUpdates">Sæki uppfærslur</string>
+  <!--E-->
+  <string name="Exit">Hætta</string>
+  <string name="Enable">Virkt</string>
+  <string name="Error">Villa</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Sæki flokkanir</string>
+  <!--H-->
+  <!--I-->
+  <string name="InstalledExtensions">Uppsettar viðbætur</string>
+  <string name="InvalidUrl">Röng vefslóð, ekki hægt að sækja viðkomandi viðbót</string>
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="Name">Viðbætur</string>
+  <string name="NeverCheckForUpdates">Aldrei að athuga með uppfærslur</string>
+  <string name="NewExtensions">Nýjar viðbætur</string>
+  <string name="NewUpdates">Nýjar uppfærslur</string>
+  <string name="NewVersion">Ný útgáfa</string>
+  <string name="No">Nei</string>
+  <string name="NoScreenshots">Það eru ekki til skjáskot fyrir viðkomandi viðbót.</string>
+  <!--O-->
+  <!--P-->
+  <string name="Plugin">Viðbót</string>
+  <!--R-->
+  <string name="Rating">Einkunnagjöf</string>
+  <string name="Revoke">Endurkalla</string>
+  <string name="ReleaseDate">Útgáfudagsetning</string>
+  <string name="Restart">Endurræsa</string>
+  <string name="Rotate">Velta</string>
+  <string name="RevokeLastAction">Endurkalla síðustu aðgerð</string>
+  <string name="RestartNow">Þessi aðgerð krefst endurræsingar á\nMediaPortal.  Viltu endurræsa núna?\nEf ekki, verður aðgerðin sett í biðröð.</string>
+  <!--S-->
+  <string name="Settings">Stillingar</string>
+  <string name="ShowSreenshots">Sýna skjáskot</string>
+  <string name="SelectVersion">Veljið útgáfu</string>
+  <string name="StartSlideshow">Hefða slæðusýningu</string>
+  <string name="Screenshots">Skjáskot</string>
+  <string name="Status">Staða</string>
+  <string name="SettingPluginEnabledName">Viðbætur virkt</string>
+  <string name="SettingListedHomeName">Birt í Home</string>
+  <string name="SettingListedPluginsName">Birt í Viðbætum</string>
+  <string name="SettingsValidationInt">Innslegið gildi verður að vera númerískt.</string>
+  <string name="SettingsValidationIntMin">Innslegið gildi verður að vera stærra eða jafnt og {0}</string>
+  <string name="SettingsValidationIntMax">Innslegið gildi verður að vera minna eða jafnt og {0}</string>
+  <!--T-->
+  <string name="Timeout">Tímatakmörk</string>
+  <!--U-->
+  <string name="Update">Uppfæra</string>
+  <string name="UpdateAvailable">Uppfærsla til</string>
+  <string name="UpdateAll">Uppfæra allt</string>
+  <string name="Updates">Uppfærslur</string>
+  <string name="Uninstall">Fjarlægja</string>
+  <string name="UnKnownFileType">Uppsetning ekki möguleg.\nÓþekkt skráareinkenni!</string>
+  <!--V-->
+  <string name="Version">Útgáfa</string>
+  <string name="Votes">Atkvæði</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Já</string>
+</resources>

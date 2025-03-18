@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Όλοι</string>
+  <string name="Actions">Ενέργειες</string>
+  <!--C-->
+  <string name="CategoryMediaInfo">Πληροφορίες μέσου</string>
+  <!--D-->
+  <string name="Download">Κατέβασμα</string>
+  <string name="DateAdded">Ημερομηνία που προστέθηκε</string>
+  <!--E-->
+  <string name="Error">Σφάλμα</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">Όχι</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <string name="Rating">Αξιολόγηση</string>
+  <string name="ReleaseDate">Ημερομηνία κυκλοφορίας</string>
+  <string name="RestoreDefaults">Επαναφορά προεπιλογών</string>
+  <!--S-->
+  <!--T-->
+  <!--U-->
+  <!--V-->
+  <string name="Views">Προβολή </string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Ναι</string>
+</resources>

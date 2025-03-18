@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPEIPlugin", "MPEIPlugin\MPEIPlugin.csproj", "{B2266050-0E36-4C2E-87AE-5C4E296F3351}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AA213DB-AEC5-46A4-9C51-8D441CAF334D} = {5AA213DB-AEC5-46A4-9C51-8D441CAF334D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPEIHelper", "MPEIHelper\MPEIHelper.csproj", "{5AA213DB-AEC5-46A4-9C51-8D441CAF334D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2266050-0E36-4C2E-87AE-5C4E296F3351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2266050-0E36-4C2E-87AE-5C4E296F3351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2266050-0E36-4C2E-87AE-5C4E296F3351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2266050-0E36-4C2E-87AE-5C4E296F3351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA213DB-AEC5-46A4-9C51-8D441CAF334D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA213DB-AEC5-46A4-9C51-8D441CAF334D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA213DB-AEC5-46A4-9C51-8D441CAF334D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA213DB-AEC5-46A4-9C51-8D441CAF334D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

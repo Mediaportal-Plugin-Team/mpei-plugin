@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">전부</string>
+  <string name="Actions">Actions</string>
+  <!--C-->
+  <string name="CategoryMediaInfo">매체정보</string>
+  <!--D-->
+  <string name="Download">다운로드</string>
+  <string name="DateAdded">추가된 날짜</string>
+  <!--E-->
+  <string name="Error">오류</string>
+  <!--F-->
+  <!--G-->
+  <!--H-->
+  <!--I-->
+  <!--L-->
+  <!--M-->
+  <!--N-->
+  <string name="No">아니오</string>
+  <!--O-->
+  <!--P-->
+  <!--R-->
+  <string name="Rating">점수</string>
+  <!--S-->
+  <!--T-->
+  <!--U-->
+  <!--V-->
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">예</string>
+</resources>

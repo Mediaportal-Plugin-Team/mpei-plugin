@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">All</string>
+  <string name="AlwaysCheckForUpdates">Always check for updates</string>
+  <string name="Actions">Actions</string>
+  <string name="ActionAdded">Action was added to queue</string>
+  <string name="ActionRemoved">Action was removed from queue</string>
+  <string name="AskForRestart">This Operation will restart MediaPortal.\nDo you wish to continue?</string>
+  <string name="Author">Author</string>
+  <string name="AllExtensions">All Extensions</string>
+  <!--C-->
+  <string name="ChangeLog">Change Log</string>
+  <string name="Compatibility">Compatibility</string>
+  <string name="CategoryRecentlyAdded">Recently Added Extensions</string>
+  <string name="CategoryRecentlyUpdated">Recently Updated Extensions</string>
+  <string name="CategoryMostInstalled">Most Installed Extensions</string>
+  <string name="CategoryFeatured">Featured Extensions</string>
+  <string name="CategoryMostPopular">Most Popular Extensions</string>
+  <string name="CategoryMostRated">Most Rated Extensions</string>
+  <string name="CategoryTopRated">Top Rated Extensions</string>
+  <string name="CategoryMostReviewed">Most Reviewed Extensions</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Customization</string>
+  <string name="CategoryBootScreens">Boot Screens</string>
+  <string name="CategoryTools">Tools</string>
+  <string name="CategorySystemUtilities">System/Utilities</string>
+  <string name="CategoryUtilities">Utilities</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Drivers & Firmware]]></string>
+  <string name="CategoryCodecs">Codecs</string>
+  <string name="CategoryLogos">Logos</string>
+  <string name="CategoryTVChannels">TV Channels</string>
+  <string name="CategoryRadioStations">Radio Stations</string>
+  <string name="CategoryMediaInfo">Media Info</string>
+  <string name="CategorySkins">Skins</string>
+  <string name="CategoryWidescreen">Widescreen</string>
+  <string name="CategoryNonWidescreen">Non-Widescreen</string>
+  <string name="CategoryPlugins">Plugins</string>
+  <string name="CategoryWeather">Weather</string>
+  <string name="CategoryOther">Other</string>
+  <string name="CategorySystem">System</string>
+  <string name="CategoryEmail">Email</string>
+  <string name="CategoryPIMs">PIMs</string>
+  <string name="CategoryHomeAutomation">Home Automation</string>
+  <string name="CategoryPictures">Pictures</string>
+  <string name="CategoryRadio">Radio</string>
+  <string name="CategoryInputOutput"><![CDATA[Input & Output]]></string>
+  <string name="CategoryOtherInputDevices">Other Input Devices</string>
+  <string name="CategoryExternalDisplays">External Displays</string>
+  <string name="CategoryRemotes">Remotes</string>
+  <string name="CategoryNewsInfo"><![CDATA[News & Info]]></string>
+  <string name="CategoryInfo">Info</string>
+  <string name="CategoryNews">News</string>
+  <string name="CategoryGamesFun"><![CDATA[Games & Fun]]></string>
+  <string name="CategoryMusic">Music</string>
+  <string name="CategoryTelevision">Television</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Movies & Videos]]></string>
+  <!--D-->
+  <string name="Download">Download</string>
+  <string name="Downloads">Downloads</string>
+  <string name="Disable">Disable</string>
+  <string name="DateAdded">Date Added</string>
+  <string name="Description">Description</string>
+  <string name="DownloadUpdates">Download Updates</string>
+  <string name="DownloadingUpdates">Downloading Updates</string>
+  <string name="DownloadingExtensionIndex">Downloading Extension Index</string>
+  <string name="DownloadingExtension">Downloading Extension Update Definitions</string>
+  <string name="DownloadProgress">Download Progress [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Exit</string>
+  <string name="Enable">Enable</string>
+  <string name="Error">Error</string>
+  <string name="ErrorExtensionInfo">Error getting Extension Info</string>
+  <string name="ErrorLoadingSite">Error Loading Category list from the MediaPortal website</string>
+  <string name="ErrorLoadingExtensionList">Error Loading Extension list for category</string>
+  <string name="ErrorDownloadingExtensionIndex">Error downloading extension list from server</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Getting Categories</string>
+  <string name="GetExtensionInfo">Getting Extension Info</string>
+  <!--H-->
+  <string name="Hits">Hits</string>
+  <!--I-->
+  <string name="Id">Id</string>
+  <string name="Install">Install</string>
+  <string name="InstalledExtensions">Installed Extensions</string>
+  <string name="InvalidUrl">Invalid Url, extension can not be downloaded!</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">MP Website Extensions</string>
+  <!--N-->
+  <string name="Name">Extensions</string>
+  <string name="NameInfo">Extension Information</string>
+  <string name="NameSettings">Extension Settings</string>
+  <string name="NeverCheckForUpdates">Never check for updates</string>
+  <string name="NewExtensions">New Extensions</string>
+  <string name="NewUpdates">New updates</string>
+  <string name="NewVersion">New version</string>
+  <string name="Notification">MPEI Notification</string>
+  <string name="NotificationWarning">There are installation tasks still pending.\nRestart and execute now?</string>
+  <string name="NotificationMessage">Would you like to restart MediaPortal\nand execute pending tasks now?</string>
+  <string name="No">No</string>
+  <string name="NoScreenshots">No Screenshots are available for this extension.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Online Extensions</string>
+  <!--P-->
+  <string name="Plugin">Plugin</string>
+  <!--R-->
+  <string name="Rating">Rating</string>
+  <string name="Revoke">Revoke</string>
+  <string name="ReleaseDate">Release Date</string>
+  <string name="Restart">Restart</string>
+  <string name="Rotate">Rotate</string>
+  <string name="RevokeLastAction">Revoke last action</string>
+  <string name="RestartNow">This operation requires a restart of\nMediaPortal. Do you want to restart now?\nIf not, the task will be queued.</string>
+  <string name="RestoreDefaultValue">Restore Default Value</string>
+  <string name="RestoreDefaults">Restore Defaults</string>
+  <string name="RestoreAllDefaults">Restore All Defaults</string>
+  <!--S-->
+  <string name="Sections">Sections</string>
+  <string name="Settings">Settings</string>
+  <string name="ShowChangelogs">Show Change Logs</string>
+  <string name="ShowSreenshots">Show Screenshots</string>
+  <string name="SelectVersionToInstall">Select version to (Re)Install</string>
+  <string name="SelectVersion">Select version</string>
+  <string name="StartSlideshow">Start slideshow</string>
+  <string name="Screenshots">Screenshots</string>
+  <string name="Status">Status</string>
+  <string name="SettingPluginEnabledName">Plugin Enabled</string>
+  <string name="SettingPluginEnabledDescription">Enable / Disable this setting to control if Extensions plugin is loaded with MediaPortal.</string>
+  <string name="SettingListedHomeName">Listed in Home</string>
+  <string name="SettingListedHomeDescription">Enable this setting for Extensions plugin to appear in the main Home screen menu items.</string>
+  <string name="SettingListedPluginsName">Listed in My Plugins</string>
+  <string name="SettingListedPluginsDescription">Enable this setting for Extensions plugin to appear in the My Plugins screen menu items.</string>
+  <string name="SettingsValidationInt">The entered value must be a number.</string>
+  <string name="SettingsValidationIntMin">The entered value must be greater than or equal to {0}.</string>
+  <string name="SettingsValidationIntMax">The entered value must be less than or equal to {0}.</string>
+  <!--T-->
+  <string name="Timeout">Timeout</string>
+  <!--U-->
+  <string name="Update">Update</string>
+  <string name="UpdateAvailable">Update Available</string>
+  <string name="UpdateAll">Update All</string>
+  <string name="Updates">Updates</string>
+  <string name="Uninstall">Uninstall</string>
+  <string name="UnKnownFileType">Installation is not possible\nUnknown file type detected!</string>
+  <string name="UseSilent">Install extension silently?</string>
+  <!--V-->
+  <string name="Views">Views</string>
+  <string name="Version">Version</string>
+  <string name="Votes">Votes</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Yes</string>
+</resources>

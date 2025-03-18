@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--A-->
+  <string name="All">Kaikki</string>
+  <string name="AlwaysCheckForUpdates">Tarkista aina päivitykset</string>
+  <string name="Actions">Toimenpiteet</string>
+  <string name="ActionAdded">Työ on asetettu jonoon</string>
+  <string name="ActionRemoved">Työ on poistettu jonosta</string>
+  <string name="AskForRestart">Tämä operaatio käynnistää MediaPortalin uudelleen. \nHaluatko jatkaa?</string>
+  <string name="Author">Tekijä</string>
+  <string name="AllExtensions">Kaikki laajennukset</string>
+  <!--C-->
+  <string name="ChangeLog">Muutosloki</string>
+  <string name="Compatibility">Yhteensopivuus</string>
+  <string name="CategoryRecentlyAdded">Viimeksi lisätyt laajennukset</string>
+  <string name="CategoryRecentlyUpdated">Viimeksi päivitetyt laajennukset</string>
+  <string name="CategoryMostInstalled">Asennetuimmat laajennukset</string>
+  <string name="CategoryFeatured">Merkityimmät laajennukset</string>
+  <string name="CategoryMostPopular">Suosituimmat laajennukset</string>
+  <string name="CategoryMostRated">Arvostelluimmat laajennukset</string>
+  <string name="CategoryTopRated">Parhaat laajennukset</string>
+  <string name="CategoryMostReviewed">Arvioiduimmat laajennukset</string>
+  <string name="CategoryHTPC">HTPC</string>
+  <string name="CategoryCustomization">Muokattavuus</string>
+  <string name="CategoryBootScreens">Käynnistysruudut</string>
+  <string name="CategoryTools">Työkalut</string>
+  <string name="CategorySystemUtilities">Järjestelmä/Apuvälineet</string>
+  <string name="CategoryUtilities">Apuvälineet</string>
+  <string name="CategoryDriversFirmware"><![CDATA[Ajurit & Firmware]]></string>
+  <string name="CategoryCodecs">Koodekit</string>
+  <string name="CategoryLogos">Logot</string>
+  <string name="CategoryTVChannels">TV Kanavat</string>
+  <string name="CategoryRadioStations">Radio Kanavat</string>
+  <string name="CategoryMediaInfo">Median tiedot</string>
+  <string name="CategorySkins">Ulkoasut</string>
+  <string name="CategoryWidescreen">Laajakuva</string>
+  <string name="CategoryNonWidescreen">Ei-Laajakuva</string>
+  <string name="CategoryPlugins">Lisäosat</string>
+  <string name="CategoryWeather">Sää</string>
+  <string name="CategoryOther">Muut</string>
+  <string name="CategorySystem">Järjestelmä</string>
+  <string name="CategoryEmail">Sähköposti</string>
+  <string name="CategoryPIMs">PIMs</string>
+  <string name="CategoryHomeAutomation">Kodin Automaatio</string>
+  <string name="CategoryPictures">Kuvat</string>
+  <string name="CategoryRadio">Radio</string>
+  <string name="CategoryInputOutput"><![CDATA[Sisääntulo & Ulostulo]]></string>
+  <string name="CategoryOtherInputDevices">Muut Syöttö Laitteet</string>
+  <string name="CategoryExternalDisplays">Ulkoiset Näytöt</string>
+  <string name="CategoryRemotes">Kaukosäätimet</string>
+  <string name="CategoryNewsInfo"><![CDATA[Uutiset & Tiedot]]></string>
+  <string name="CategoryInfo">Tiedot</string>
+  <string name="CategoryNews">Uutiset</string>
+  <string name="CategoryGamesFun"><![CDATA[Pelit & Viihde]]></string>
+  <string name="CategoryMusic">Musiikki</string>
+  <string name="CategoryTelevision">Televisio</string>
+  <string name="CategoryMoviesVideos"><![CDATA[Elokuvat & Videot]]></string>
+  <!--D-->
+  <string name="Download">Lataa</string>
+  <string name="Downloads">Ladatut</string>
+  <string name="Disable">Poista käytöstä</string>
+  <string name="DateAdded">Lisäyspäivä</string>
+  <string name="Description">Kuvaus</string>
+  <string name="DownloadUpdates">Lataa päivitykset</string>
+  <string name="DownloadingUpdates">Ladataan päivityksiä</string>
+  <string name="DownloadingExtensionIndex">Ladataan laajennusten tietoja</string>
+  <string name="DownloadingExtension">Ladataan laajennusten päivitys tietoja</string>
+  <string name="DownloadProgress">Latauksen tila [{0}/{1}] {2}%</string>
+  <!--E-->
+  <string name="Exit">Poistu</string>
+  <string name="Enable">Ota käyttöön</string>
+  <string name="Error">Virhe</string>
+  <string name="ErrorExtensionInfo">Virhe haettaessa Laajennuksen tietoja</string>
+  <string name="ErrorLoadingSite">Virhe ladattaessa kategoria listaa MediaPortalin kotisivuilta</string>
+  <string name="ErrorLoadingExtensionList">Virhe ladattaessa laajennusten listaa kategorialle</string>
+  <string name="ErrorDownloadingExtensionIndex">Virhe ladattaessa laajennusten listaa palvelimelta</string>
+  <!--F-->
+  <!--G-->
+  <string name="GetCategories">Haetaan kategoriat</string>
+  <string name="GetExtensionInfo">Haetaan laajennusten tiedot</string>
+  <!--H-->
+  <string name="Hits">Osumat</string>
+  <!--I-->
+  <string name="Id">ID</string>
+  <string name="Install">Asenna</string>
+  <string name="InstalledExtensions">Asennetut laajennukset</string>
+  <string name="InvalidUrl">Väärä Url, laajennusta ei voi ladata!</string>
+  <!--L-->
+  <!--M-->
+  <string name="MPOnlineExtensions">MP kotisivun laajennukset</string>
+  <!--N-->
+  <string name="Name">Laajennukset</string>
+  <string name="NameInfo">Laajennuksen tiedot</string>
+  <string name="NameSettings">Laajennuksen asetukset</string>
+  <string name="NeverCheckForUpdates">Älä koskaan tarkista päivityksiä</string>
+  <string name="NewExtensions">Uudet laajennukset</string>
+  <string name="NewUpdates">Uudet päivitykset</string>
+  <string name="NewVersion">Uudet versiot</string>
+  <string name="Notification">MPEI Ilmoitukset</string>
+  <string name="NotificationWarning">Asennuksia on vielä kesken. \nKäynnistä MP uudelleen ja suorita ne?</string>
+  <string name="NotificationMessage">Haluatko käynnistää MediaPortalin \nuudelleen ja suorittaa odottavat tehtävät?</string>
+  <string name="No">Ei</string>
+  <string name="NoScreenshots">Ei kuvakaappausta saatavilla tälle laajennukselle.</string>
+  <!--O-->
+  <string name="OnlineExtensions">Online laajennukset</string>
+  <!--P-->
+  <string name="Plugin">Lisäosa</string>
+  <!--R-->
+  <string name="Rating">Arvosana</string>
+  <string name="Revoke">Kumoa</string>
+  <string name="ReleaseDate">Julkaisupäivä</string>
+  <string name="Restart">Käynnistä uudelleen</string>
+  <string name="Rotate">Kierrä</string>
+  <string name="RevokeLastAction">Kumoa viimeinen teko</string>
+  <string name="RestartNow">Tämä operaatio vaatii MediaPortalin \nuudelleen käynnistyksen. Haluatko käynnistää uudelleen nyt? \nJos et, työ asetetaan jonoon.</string>
+  <string name="RestoreDefaultValue">Palauta oletus arvo</string>
+  <string name="RestoreDefaults">Palauta oletukset</string>
+  <string name="RestoreAllDefaults">Palauta kaikki oletukset</string>
+  <!--S-->
+  <string name="Sections">Osastot</string>
+  <string name="Settings">Asetukset</string>
+  <string name="ShowChangelogs">Näytä muutoslokit</string>
+  <string name="ShowSreenshots">Näytä kuvakaappaukset</string>
+  <string name="SelectVersionToInstall">Valitse asennettava versio</string>
+  <string name="SelectVersion">Valitse versio</string>
+  <string name="StartSlideshow">Aloita diaesitys</string>
+  <string name="Screenshots">Kuvakaappaukset</string>
+  <string name="Status">Tila</string>
+  <string name="SettingPluginEnabledName">Lisäosa otettu käyttöön</string>
+  <string name="SettingPluginEnabledDescription">Ota/Poista käytöstä tämä asetus kontrolloidaksesi voiko Laajennukset -lisäosa käynnistyä kun MP käynnistyy.</string>
+  <string name="SettingListedHomeName">Näkyy Kotivalikossa</string>
+  <string name="SettingListedHomeDescription">Ota käyttöön tämä asetus Laajennukset -lisäosan näkymiseen Koti-valikossa.</string>
+  <string name="SettingListedPluginsName">Näkyy Lisäosissa</string>
+  <string name="SettingListedPluginsDescription">Ota käyttöön tämä asetus Laajennukset -lisäosan näkymiseen Lisäosat-valikossa.</string>
+  <string name="SettingsValidationInt">Syötetty arvo täytyy olla numero.</string>
+  <string name="SettingsValidationIntMin">Syötetty arvo täytyy olla suurempi tai tasan {0}.</string>
+  <string name="SettingsValidationIntMax">Syötetty arvo täytyy olla vähemmän tai tasan {0}.</string>
+  <!--T-->
+  <string name="Timeout">Aikakatkaisu</string>
+  <!--U-->
+  <string name="Update">Päivitä</string>
+  <string name="UpdateAvailable">Päivitys saatavilla</string>
+  <string name="UpdateAll">Päivitä kaikki</string>
+  <string name="Updates">Päivitykset</string>
+  <string name="Uninstall">Poista</string>
+  <string name="UnKnownFileType">Asennus ei ole mahdollista \nTuntematon tiedostotyyppi havaittu!</string>
+  <string name="UseSilent">Asenna laajennus hiljaisesti?</string>
+  <!--V-->
+  <string name="Views">Katsontakerrat</string>
+  <string name="Version">Versio</string>
+  <string name="Votes">Äänet</string>
+  <!--W-->
+  <!--Y-->
+  <string name="Yes">Kyllä</string>
+</resources>
