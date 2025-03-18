@@ -30,7 +30,7 @@ using System.Threading;
 using MediaPortal.GUI.Library;
 //using MediaPortal.Picture.Database;
 using MediaPortal.Util;
-using Microsoft.DirectX.Direct3D;
+using SharpDX.Direct3D9;
 
 #region SlidePicture class
 
@@ -153,7 +153,7 @@ internal class SlidePicture : IDisposable
 
   public void Dispose()
   {
-    if (_texture != null && !_texture.Disposed)
+    if (_texture != null && !_texture.IsDisposed)
     {
       _texture.Dispose();
       _texture = null;
