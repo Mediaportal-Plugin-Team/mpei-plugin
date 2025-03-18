@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MPEIPlugin</RootNamespace>
     <AssemblyName>MPEIPlugin</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -41,7 +41,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -50,24 +51,35 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common.Utils">
-      <HintPath>..\Externals\Common.Utils.dll</HintPath>
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\Common.Utils.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Core">
-      <HintPath>..\Externals\Core.dll</HintPath>
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Databases">
-      <HintPath>..\Externals\Databases.dll</HintPath>
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\Databases.dll</HintPath>
     </Reference>
     <Reference Include="Dialogs">
-      <HintPath>..\Externals\Dialogs.dll</HintPath>
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\plugins\Windows\Dialogs.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="MpeCore">
-      <HintPath>..\Externals\MpeCore.dll</HintPath>
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\MpeCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\SharpDX.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9">
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\SharpDX.Direct3D9.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -78,7 +90,8 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Utils">
-      <HintPath>..\Externals\Utils.dll</HintPath>
+      <HintPath>C:\Program Files\Team MediaPortal\MediaPortal\Utils.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -98,12 +111,12 @@
     <Compile Include="MPSite\MPSiteUtil.cs" />
     <Compile Include="MPSite\SiteItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\VersionInfo.cs" />
     <Compile Include="SlideCache.cs" />
     <Compile Include="SlidePicture.cs" />
     <Compile Include="splashscreen.cs" />
     <Compile Include="Translation.cs" />
     <Compile Include="UpdateWacher.cs" />
+    <Compile Include="UpgradeAdvisor.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -197,12 +210,9 @@
     <Content Include="Resources\Skins\Default_MP1.3\myextensions2settings.xml" />
     <Content Include="Resources\Skins\Default_MP1.3\myextensions2slideshow.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\VersionInfo.cs.tmpl" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>subwcrev "$(SolutionDir)." "$(ProjectDir)Properties\VersionInfo.cs.tmpl" "$(ProjectDir)Properties\VersionInfo.cs"</PreBuildEvent>
+    <PreBuildEvent>rem subwcrev "$(SolutionDir)." "$(ProjectDir)Properties\VersionInfo.cs.tmpl" "$(ProjectDir)Properties\VersionInfo.cs"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
