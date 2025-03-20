@@ -472,7 +472,7 @@ public class Script
         <Id />
         <MinVersion>
           <Major>1</Major>
-          <Minor>32</Minor>
+          <Minor>36</Minor>
           <Build>100</Build>
           <Revision>0</Revision>
         </MinVersion>
@@ -483,7 +483,7 @@ public class Script
           <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>false</WarnOnly>
-        <Message>Requires MediaPortal 1.32.100.0 or higher!</Message>
+        <Message>Requires MediaPortal 1.36.100.0 or higher!</Message>
         <Name>MediaPortal</Name>
         <Condition>None</Condition>
       </DependencyItem>
@@ -519,19 +519,18 @@ public class Script
       <Build>0</Build>
       <Revision>0</Revision>
     </Version>
-    <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
-
-
-
+    <ExtensionDescription>The Extensions plugin for MediaPortal allows you to browse, install, update and uninstall plugin/skin extensions all from the GUI.
+
+
+
 Extensions also allows plugin developers to create their own GUI for settings which can save users from having to exit MediaPortal to change configuration.</ExtensionDescription>
-    <VersionDescription>* x86 / x64 support
+    <VersionDescription>* Ready for 1.37 Pre Release
 
-* Improved error handling and logging of issues when creating logos for extensions.
-
-* Updated translations from Transifex.</VersionDescription>
+* x86 / x64 support
+</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/mpei-plugin/releases/download/v[Version]/[Name]-[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2025-03-19T10:56:05</ReleaseDate>
+    <ReleaseDate>2025-03-20T10:56:05</ReleaseDate>
     <Tags>installer, mpei, plugin, extensions</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
     <Location>.\[Name]-[Version].mpe1</Location>
