@@ -390,8 +390,8 @@ public class Script
 {
     public static void Main(PackageClass packageClass, ActionItem actionItem)
     {
-        MpeInstaller.Init();
-        List&lt;PackageClass&gt; masup = MpeInstaller.KnownExtensions.Items;
+        MpeCore.MpeInstaller.Init();
+        List&lt;PackageClass&gt; masup = MpeCore.MpeInstaller.KnownExtensions.Items;
         List&lt;PackageClass&gt; unique = new List&lt;PackageClass&gt;();
         foreach (PackageClass p in masup)
         {
@@ -400,9 +400,9 @@ public class Script
                 unique.Add(p);
             }
         }
-        MpeInstaller.KnownExtensions.Items.Clear();
-        MpeInstaller.KnownExtensions.Items = unique;
-        MpeInstaller.Save();
+        MpeCore.MpeInstaller.KnownExtensions.Items.Clear();
+        MpeCore.MpeInstaller.KnownExtensions.Items = unique;
+        MpeCore.MpeInstaller.Save();
         return;
     }
 }</Value>
